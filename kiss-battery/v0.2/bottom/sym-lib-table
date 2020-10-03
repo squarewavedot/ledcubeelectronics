@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name kiss)(type Legacy)(uri ${KIPRJMOD}/../lib/kiss.lib)(options "")(descr ""))
+  (lib (name kiss-battery_bottom-rescue)(type Legacy)(uri ${KIPRJMOD}/kiss-battery_bottom-rescue.lib)(options "")(descr ""))
+)

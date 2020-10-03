@@ -1,0 +1,585 @@
+EESchema Schematic File Version 4
+LIBS:kiss-masterboard-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 7
+Title "LEDCube masterboard"
+Date "2019-06-11"
+Rev "0.2a"
+Comp "squarewave / @zzaurak"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "License: CC-BY-SA V4.0"
+$EndDescr
+Text HLabel 2300 1450 0    50   Input ~ 0
+EN
+$Comp
+L kiss:TPS54327 U1
+U 1 1 5FDC85EC
+P 3350 1650
+F 0 "U1" H 3150 1050 50  0000 C CNN
+F 1 "TPS54327" H 3350 2250 50  0000 C CNN
+F 2 "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias" H 3300 1550 50  0001 C CNN
+F 3 "" H 3300 1550 50  0001 C CNN
+	1    3350 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FDC8D9E
+P 2550 1450
+AR Path="/5FDC8D9E" Ref="R?"  Part="1" 
+AR Path="/5C93509D/5FDC8D9E" Ref="R?"  Part="1" 
+AR Path="/5C958DBD/5C9BDDC9/5FDC8D9E" Ref="R?"  Part="1" 
+AR Path="/5C958DBD/5FDC8D9E" Ref="R?"  Part="1" 
+AR Path="/5D49C0F6/5FDC8D9E" Ref="R9"  Part="1" 
+F 0 "R9" V 2550 1400 50  0000 L CNN
+F 1 "10K" V 2450 1400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2480 1450 50  0001 C CNN
+F 3 "~" H 2550 1450 50  0001 C CNN
+F 4 "0603" H -2150 -800 50  0001 C CNN "Package"
+F 5 "RC0603JR-0768K" H -2150 -800 50  0001 C CNN "Part No."
+F 6 "Yageo" H -2250 -2250 50  0001 C CNN "Manufacturer"
+F 7 "-" H -3300 -1000 50  0001 C CNN "Digikey No."
+	1    2550 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FDC921E
+P 1350 1600
+AR Path="/5FDC921E" Ref="C?"  Part="1" 
+AR Path="/5C93509D/5FDC921E" Ref="C?"  Part="1" 
+AR Path="/5C958DBD/5C9BDDC9/5FDC921E" Ref="C?"  Part="1" 
+AR Path="/5C958DBD/5FDC921E" Ref="C?"  Part="1" 
+AR Path="/5D49C0F6/5FDC921E" Ref="C1"  Part="1" 
+F 0 "C1" H 1400 1700 50  0000 L CNN
+F 1 "10µF" H 1400 1500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1388 1450 50  0001 C CNN
+F 3 "~" H 1350 1600 50  0001 C CNN
+F 4 "490-10748-1-ND" H -3800 -850 50  0001 C CNN "Digikey No."
+F 5 "Murata" H -3800 -850 50  0001 C CNN "Manufacturer"
+F 6 "GRM21BR61E106MA73L" H -3800 -850 50  0001 C CNN "Part No."
+	1    1350 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FDC95A3
+P 2350 2150
+AR Path="/5FDC95A3" Ref="C?"  Part="1" 
+AR Path="/5C93509D/5FDC95A3" Ref="C?"  Part="1" 
+AR Path="/5C958DBD/5C9BDDC9/5FDC95A3" Ref="C?"  Part="1" 
+AR Path="/5C958DBD/5FDC95A3" Ref="C?"  Part="1" 
+AR Path="/5D49C0F6/5FDC95A3" Ref="C3"  Part="1" 
+F 0 "C3" H 2400 2250 50  0000 L CNN
+F 1 "1µF" H 2400 2050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2388 2000 50  0001 C CNN
+F 3 "~" H 2350 2150 50  0001 C CNN
+F 4 "0603" H -1950 -100 50  0001 C CNN "Package"
+F 5 "587-1438-1-ND" H -3150 -300 50  0001 C CNN "Digikey No."
+F 6 "Taiyo Yuden" H -3150 -300 50  0001 C CNN "Manufacturer"
+F 7 "GMK212B7105KG-T" H -3150 -300 50  0001 C CNN "Part No."
+	1    2350 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FDC9BFD
+P 2700 2150
+AR Path="/5FDC9BFD" Ref="C?"  Part="1" 
+AR Path="/5C93509D/5FDC9BFD" Ref="C?"  Part="1" 
+AR Path="/5C958DBD/5C9BDDC9/5FDC9BFD" Ref="C?"  Part="1" 
+AR Path="/5C958DBD/5FDC9BFD" Ref="C?"  Part="1" 
+AR Path="/5D49C0F6/5FDC9BFD" Ref="C4"  Part="1" 
+F 0 "C4" H 2750 2250 50  0000 L CNN
+F 1 "3.3nF" H 2750 2050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2738 2000 50  0001 C CNN
+F 3 "~" H 2700 2150 50  0001 C CNN
+F 4 "0603" H -4400 -600 50  0001 C CNN "Package"
+F 5 "-" H -5150 -850 50  0001 C CNN "Digikey No."
+F 6 "Murata" H -5150 -850 50  0001 C CNN "Manufacturer"
+F 7 "GRM188R71H103KA01D" H -5150 -850 50  0001 C CNN "Part No."
+	1    2700 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FDCA441
+P 4150 1250
+AR Path="/5FDCA441" Ref="C?"  Part="1" 
+AR Path="/5C93509D/5FDCA441" Ref="C?"  Part="1" 
+AR Path="/5C958DBD/5C9BDDC9/5FDCA441" Ref="C?"  Part="1" 
+AR Path="/5C958DBD/5FDCA441" Ref="C?"  Part="1" 
+AR Path="/5D49C0F6/5FDCA441" Ref="C5"  Part="1" 
+F 0 "C5" V 4250 1350 50  0000 L CNN
+F 1 "100nF" V 4250 950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4188 1100 50  0001 C CNN
+F 3 "~" H 4150 1250 50  0001 C CNN
+F 4 "0603" H -2950 -1500 50  0001 C CNN "Package"
+F 5 "-" H -3700 -1750 50  0001 C CNN "Digikey No."
+F 6 "Murata" H -3700 -1750 50  0001 C CNN "Manufacturer"
+F 7 "GRM188R71H103KA01D" H -3700 -1750 50  0001 C CNN "Part No."
+	1    4150 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L8
+U 1 1 5FDCABE4
+P 4550 1450
+F 0 "L8" V 4500 1500 50  0000 C CNN
+F 1 "3.3uH, 21m, SRN8040-3R3Y" V 4700 1000 50  0000 C CNN
+F 2 "kiss:Bourns_SRN8040" H 4550 1450 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/SRN8040.pdf" H 4550 1450 50  0001 C CNN
+	1    4550 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FDCB350
+P 5200 1650
+AR Path="/5FDCB350" Ref="R?"  Part="1" 
+AR Path="/5C93509D/5FDCB350" Ref="R?"  Part="1" 
+AR Path="/5C958DBD/5C9BDDC9/5FDCB350" Ref="R?"  Part="1" 
+AR Path="/5C958DBD/5FDCB350" Ref="R?"  Part="1" 
+AR Path="/5D49C0F6/5FDCB350" Ref="R10"  Part="1" 
+F 0 "R10" H 5270 1696 50  0000 L CNN
+F 1 "137k 1%" H 5270 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5130 1650 50  0001 C CNN
+F 3 "~" H 5200 1650 50  0001 C CNN
+F 4 "0603" H 500 -600 50  0001 C CNN "Package"
+F 5 "RC0603JR-0768K" H 500 -600 50  0001 C CNN "Part No."
+F 6 "Yageo" H 400 -2050 50  0001 C CNN "Manufacturer"
+F 7 "-" H -650 -800 50  0001 C CNN "Digikey No."
+	1    5200 1650
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FDCB8B8
+P 4850 1650
+AR Path="/5FDCB8B8" Ref="C?"  Part="1" 
+AR Path="/5C93509D/5FDCB8B8" Ref="C?"  Part="1" 
+AR Path="/5C958DBD/5C9BDDC9/5FDCB8B8" Ref="C?"  Part="1" 
+AR Path="/5C958DBD/5FDCB8B8" Ref="C?"  Part="1" 
+AR Path="/5D49C0F6/5FDCB8B8" Ref="C6"  Part="1" 
+F 0 "C6" H 4850 1550 50  0000 L CNN
+F 1 "10pF" H 4950 1650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4888 1500 50  0001 C CNN
+F 3 "~" H 4850 1650 50  0001 C CNN
+F 4 "0603" H -2250 -1100 50  0001 C CNN "Package"
+F 5 "-" H -3000 -1350 50  0001 C CNN "Digikey No."
+F 6 "Murata" H -3000 -1350 50  0001 C CNN "Manufacturer"
+F 7 "GRM188R71H103KA01D" H -3000 -1350 50  0001 C CNN "Part No."
+	1    4850 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FDCBC4F
+P 5200 2050
+AR Path="/5FDCBC4F" Ref="R?"  Part="1" 
+AR Path="/5C93509D/5FDCBC4F" Ref="R?"  Part="1" 
+AR Path="/5C958DBD/5C9BDDC9/5FDCBC4F" Ref="R?"  Part="1" 
+AR Path="/5C958DBD/5FDCBC4F" Ref="R?"  Part="1" 
+AR Path="/5D49C0F6/5FDCBC4F" Ref="R11"  Part="1" 
+F 0 "R11" H 5270 2096 50  0000 L CNN
+F 1 "23.7k 1%" H 5270 2005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5130 2050 50  0001 C CNN
+F 3 "~" H 5200 2050 50  0001 C CNN
+F 4 "0603" H 500 -200 50  0001 C CNN "Package"
+F 5 "RC0603JR-0768K" H 500 -200 50  0001 C CNN "Part No."
+F 6 "Yageo" H 400 -1650 50  0001 C CNN "Manufacturer"
+F 7 "-" H -650 -400 50  0001 C CNN "Digikey No."
+	1    5200 2050
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FDCC538
+P 5650 1850
+AR Path="/5FDCC538" Ref="C?"  Part="1" 
+AR Path="/5C93509D/5FDCC538" Ref="C?"  Part="1" 
+AR Path="/5C958DBD/5C9BDDC9/5FDCC538" Ref="C?"  Part="1" 
+AR Path="/5C958DBD/5FDCC538" Ref="C?"  Part="1" 
+AR Path="/5D49C0F6/5FDCC538" Ref="C7"  Part="1" 
+F 0 "C7" H 5700 1950 50  0000 L CNN
+F 1 "22µF" H 5700 1750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 5688 1700 50  0001 C CNN
+F 3 "~" H 5650 1850 50  0001 C CNN
+F 4 "587-1965-1-ND" H -3150 -1850 50  0001 C CNN "Digikey No."
+F 5 "Taiyo Yuden" H -3150 -1850 50  0001 C CNN "Manufacturer"
+F 6 "LMK325BJ107MM-T" H -3150 -1850 50  0001 C CNN "Part No."
+	1    5650 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1450 4350 1450
+Wire Wire Line
+	4300 1250 4350 1250
+Wire Wire Line
+	4350 1250 4350 1450
+Connection ~ 4350 1450
+Wire Wire Line
+	4350 1450 4400 1450
+Wire Wire Line
+	4000 1250 3800 1250
+Wire Wire Line
+	4700 1450 4850 1450
+Wire Wire Line
+	4850 1450 4850 1500
+Wire Wire Line
+	4850 1450 5200 1450
+Wire Wire Line
+	5200 1450 5200 1500
+Connection ~ 4850 1450
+Wire Wire Line
+	5200 1800 5200 1850
+$Comp
+L power:GND #PWR?
+U 1 1 5FDE11D4
+P 3900 2450
+AR Path="/5FDE11D4" Ref="#PWR?"  Part="1" 
+AR Path="/5C93509D/5FDE11D4" Ref="#PWR?"  Part="1" 
+AR Path="/5C958DBD/5C9BDDC9/5FDE11D4" Ref="#PWR?"  Part="1" 
+AR Path="/5C958DBD/5FDE11D4" Ref="#PWR?"  Part="1" 
+AR Path="/5D49C0F6/5FDE11D4" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 3900 2200 50  0001 C CNN
+F 1 "GND" H 3905 2277 50  0000 C CNN
+F 2 "" H 3900 2450 50  0001 C CNN
+F 3 "" H 3900 2450 50  0001 C CNN
+	1    3900 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1850 3900 1850
+Wire Wire Line
+	3900 1850 3900 2050
+Wire Wire Line
+	3800 2050 3900 2050
+Connection ~ 3900 2050
+Wire Wire Line
+	3900 2050 3900 2450
+$Comp
+L Device:C C?
+U 1 1 5FDE4156
+P 5950 1850
+AR Path="/5FDE4156" Ref="C?"  Part="1" 
+AR Path="/5C93509D/5FDE4156" Ref="C?"  Part="1" 
+AR Path="/5C958DBD/5C9BDDC9/5FDE4156" Ref="C?"  Part="1" 
+AR Path="/5C958DBD/5FDE4156" Ref="C?"  Part="1" 
+AR Path="/5D49C0F6/5FDE4156" Ref="C58"  Part="1" 
+F 0 "C58" H 6000 1950 50  0000 L CNN
+F 1 "22µF" H 6000 1750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 5988 1700 50  0001 C CNN
+F 3 "~" H 5950 1850 50  0001 C CNN
+F 4 "587-1965-1-ND" H -2850 -1850 50  0001 C CNN "Digikey No."
+F 5 "Taiyo Yuden" H -2850 -1850 50  0001 C CNN "Manufacturer"
+F 6 "LMK325BJ107MM-T" H -2850 -1850 50  0001 C CNN "Part No."
+	1    5950 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 1450 5650 1450
+Wire Wire Line
+	5950 1450 5950 1700
+Connection ~ 5200 1450
+Wire Wire Line
+	5650 1450 5650 1700
+Connection ~ 5650 1450
+Wire Wire Line
+	5650 1450 5950 1450
+Wire Wire Line
+	3800 1650 4350 1650
+Wire Wire Line
+	4350 1650 4350 1850
+Wire Wire Line
+	4350 1850 4850 1850
+Connection ~ 5200 1850
+Wire Wire Line
+	5200 1850 5200 1900
+Wire Wire Line
+	4850 1800 4850 1850
+Connection ~ 4850 1850
+Wire Wire Line
+	4850 1850 5200 1850
+$Comp
+L power:GND #PWR?
+U 1 1 5FDEC140
+P 5650 2450
+AR Path="/5FDEC140" Ref="#PWR?"  Part="1" 
+AR Path="/5C93509D/5FDEC140" Ref="#PWR?"  Part="1" 
+AR Path="/5C958DBD/5C9BDDC9/5FDEC140" Ref="#PWR?"  Part="1" 
+AR Path="/5C958DBD/5FDEC140" Ref="#PWR?"  Part="1" 
+AR Path="/5D49C0F6/5FDEC140" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 5650 2200 50  0001 C CNN
+F 1 "GND" H 5655 2277 50  0000 C CNN
+F 2 "" H 5650 2450 50  0001 C CNN
+F 3 "" H 5650 2450 50  0001 C CNN
+	1    5650 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FDEC3A3
+P 5950 2450
+AR Path="/5FDEC3A3" Ref="#PWR?"  Part="1" 
+AR Path="/5C93509D/5FDEC3A3" Ref="#PWR?"  Part="1" 
+AR Path="/5C958DBD/5C9BDDC9/5FDEC3A3" Ref="#PWR?"  Part="1" 
+AR Path="/5C958DBD/5FDEC3A3" Ref="#PWR?"  Part="1" 
+AR Path="/5D49C0F6/5FDEC3A3" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 5950 2200 50  0001 C CNN
+F 1 "GND" H 5955 2277 50  0000 C CNN
+F 2 "" H 5950 2450 50  0001 C CNN
+F 3 "" H 5950 2450 50  0001 C CNN
+	1    5950 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 2000 5950 2450
+Wire Wire Line
+	5650 2450 5650 2000
+Wire Wire Line
+	5200 2200 5200 2450
+$Comp
+L Device:C C?
+U 1 1 5FDF5B97
+P 1650 1600
+AR Path="/5FDF5B97" Ref="C?"  Part="1" 
+AR Path="/5C93509D/5FDF5B97" Ref="C?"  Part="1" 
+AR Path="/5C958DBD/5C9BDDC9/5FDF5B97" Ref="C?"  Part="1" 
+AR Path="/5C958DBD/5FDF5B97" Ref="C?"  Part="1" 
+AR Path="/5D49C0F6/5FDF5B97" Ref="C2"  Part="1" 
+F 0 "C2" H 1700 1700 50  0000 L CNN
+F 1 "10µF" H 1700 1500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1688 1450 50  0001 C CNN
+F 3 "~" H 1650 1600 50  0001 C CNN
+F 4 "490-10748-1-ND" H -3500 -850 50  0001 C CNN "Digikey No."
+F 5 "Murata" H -3500 -850 50  0001 C CNN "Manufacturer"
+F 6 "GRM21BR61E106MA73L" H -3500 -850 50  0001 C CNN "Part No."
+	1    1650 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 1450 2900 1450
+Wire Wire Line
+	1350 1450 1350 1250
+Wire Wire Line
+	1250 1250 1350 1250
+Connection ~ 1350 1250
+Wire Wire Line
+	1350 1250 1650 1250
+Wire Wire Line
+	1650 1450 1650 1250
+Connection ~ 1650 1250
+Wire Wire Line
+	1650 1250 1950 1250
+Wire Wire Line
+	2900 1650 2350 1650
+Wire Wire Line
+	2350 1650 2350 2000
+Wire Wire Line
+	2700 2000 2700 1850
+Wire Wire Line
+	2700 1850 2900 1850
+Wire Wire Line
+	2700 2450 2700 2300
+$Comp
+L power:GND #PWR?
+U 1 1 5FE04569
+P 2350 2450
+AR Path="/5FE04569" Ref="#PWR?"  Part="1" 
+AR Path="/5C93509D/5FE04569" Ref="#PWR?"  Part="1" 
+AR Path="/5C958DBD/5C9BDDC9/5FE04569" Ref="#PWR?"  Part="1" 
+AR Path="/5C958DBD/5FE04569" Ref="#PWR?"  Part="1" 
+AR Path="/5D49C0F6/5FE04569" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 2350 2200 50  0001 C CNN
+F 1 "GND" H 2355 2277 50  0000 C CNN
+F 2 "" H 2350 2450 50  0001 C CNN
+F 3 "" H 2350 2450 50  0001 C CNN
+	1    2350 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2450 2350 2300
+Text HLabel 1250 1250 0    50   Input ~ 0
+Power_in
+Text HLabel 6200 1450 2    50   Output ~ 0
+5V_switched
+Wire Wire Line
+	5950 1450 6100 1450
+Connection ~ 5950 1450
+Text HLabel 6200 1600 2    50   Output ~ 0
+PGOOD
+Wire Wire Line
+	6200 1600 6100 1600
+Wire Wire Line
+	6100 1600 6100 1450
+Connection ~ 6100 1450
+Wire Wire Line
+	6100 1450 6200 1450
+Wire Wire Line
+	2300 1450 2400 1450
+$Comp
+L power:GND #PWR?
+U 1 1 5FE101C2
+P 1650 2450
+AR Path="/5FE101C2" Ref="#PWR?"  Part="1" 
+AR Path="/5C93509D/5FE101C2" Ref="#PWR?"  Part="1" 
+AR Path="/5C958DBD/5C9BDDC9/5FE101C2" Ref="#PWR?"  Part="1" 
+AR Path="/5C958DBD/5FE101C2" Ref="#PWR?"  Part="1" 
+AR Path="/5D49C0F6/5FE101C2" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 1650 2200 50  0001 C CNN
+F 1 "GND" H 1655 2277 50  0000 C CNN
+F 2 "" H 1650 2450 50  0001 C CNN
+F 3 "" H 1650 2450 50  0001 C CNN
+	1    1650 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FE1072F
+P 1350 2450
+AR Path="/5FE1072F" Ref="#PWR?"  Part="1" 
+AR Path="/5C93509D/5FE1072F" Ref="#PWR?"  Part="1" 
+AR Path="/5C958DBD/5C9BDDC9/5FE1072F" Ref="#PWR?"  Part="1" 
+AR Path="/5C958DBD/5FE1072F" Ref="#PWR?"  Part="1" 
+AR Path="/5D49C0F6/5FE1072F" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 1350 2200 50  0001 C CNN
+F 1 "GND" H 1355 2277 50  0000 C CNN
+F 2 "" H 1350 2450 50  0001 C CNN
+F 3 "" H 1350 2450 50  0001 C CNN
+	1    1350 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2450 1350 1750
+Wire Wire Line
+	1650 1750 1650 2450
+Wire Notes Line
+	600  600  7000 600 
+Wire Notes Line
+	7000 600  7000 3100
+Wire Notes Line
+	7000 3100 600  3100
+Wire Notes Line
+	600  3100 600  600 
+Text Notes 650  700  0    50   ~ 0
+5.2V 3A DC/DC
+Text Notes 1150 3400 0    59   ~ 0
+Also set the output to 5.1-5.2V so the Pi doesn't bitch about low voltage
+$Comp
+L Device:C C?
+U 1 1 5D00514D
+P 1950 1600
+AR Path="/5D00514D" Ref="C?"  Part="1" 
+AR Path="/5C93509D/5D00514D" Ref="C?"  Part="1" 
+AR Path="/5C958DBD/5C9BDDC9/5D00514D" Ref="C?"  Part="1" 
+AR Path="/5C958DBD/5D00514D" Ref="C?"  Part="1" 
+AR Path="/5D49C0F6/5D00514D" Ref="C32"  Part="1" 
+F 0 "C32" H 2000 1700 50  0000 L CNN
+F 1 "100nF" H 2000 1500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1988 1450 50  0001 C CNN
+F 3 "~" H 1950 1600 50  0001 C CNN
+F 4 "0603" H -2350 -650 50  0001 C CNN "Package"
+F 5 "587-1438-1-ND" H -3550 -850 50  0001 C CNN "Digikey No."
+F 6 "Taiyo Yuden" H -3550 -850 50  0001 C CNN "Manufacturer"
+F 7 "GMK212B7105KG-T" H -3550 -850 50  0001 C CNN "Part No."
+	1    1950 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 1250 1950 1450
+Connection ~ 1950 1250
+Wire Wire Line
+	1950 1250 2900 1250
+Wire Wire Line
+	1950 1750 1950 2450
+$Comp
+L power:GND #PWR?
+U 1 1 5D0077BA
+P 1950 2450
+AR Path="/5D0077BA" Ref="#PWR?"  Part="1" 
+AR Path="/5C93509D/5D0077BA" Ref="#PWR?"  Part="1" 
+AR Path="/5C958DBD/5C9BDDC9/5D0077BA" Ref="#PWR?"  Part="1" 
+AR Path="/5C958DBD/5D0077BA" Ref="#PWR?"  Part="1" 
+AR Path="/5D49C0F6/5D0077BA" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 1950 2200 50  0001 C CNN
+F 1 "GND" H 1955 2277 50  0000 C CNN
+F 2 "" H 1950 2450 50  0001 C CNN
+F 3 "" H 1950 2450 50  0001 C CNN
+	1    1950 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR03
+U 1 1 5D007D00
+P 5200 2450
+F 0 "#PWR03" H 5200 2200 50  0001 C CNN
+F 1 "GNDA" H 5205 2277 50  0000 C CNN
+F 2 "" H 5200 2450 50  0001 C CNN
+F 3 "" H 5200 2450 50  0001 C CNN
+	1    5200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR02
+U 1 1 5D00854E
+P 2700 2450
+F 0 "#PWR02" H 2700 2200 50  0001 C CNN
+F 1 "GNDA" H 2705 2277 50  0000 C CNN
+F 2 "" H 2700 2450 50  0001 C CNN
+F 3 "" H 2700 2450 50  0001 C CNN
+	1    2700 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Net-Tie_2 NT1
+U 1 1 5D008C93
+P 6600 2700
+F 0 "NT1" H 6600 2878 50  0000 C CNN
+F 1 "Net-Tie_2" H 6600 2787 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 6600 2700 50  0001 C CNN
+F 3 "~" H 6600 2700 50  0001 C CNN
+	1    6600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR04
+U 1 1 5D009041
+P 6450 2800
+F 0 "#PWR04" H 6450 2550 50  0001 C CNN
+F 1 "GNDA" H 6455 2627 50  0000 C CNN
+F 2 "" H 6450 2800 50  0001 C CNN
+F 3 "" H 6450 2800 50  0001 C CNN
+	1    6450 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D00924A
+P 6750 2800
+AR Path="/5D00924A" Ref="#PWR?"  Part="1" 
+AR Path="/5C93509D/5D00924A" Ref="#PWR?"  Part="1" 
+AR Path="/5C958DBD/5C9BDDC9/5D00924A" Ref="#PWR?"  Part="1" 
+AR Path="/5C958DBD/5D00924A" Ref="#PWR?"  Part="1" 
+AR Path="/5D49C0F6/5D00924A" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 6750 2550 50  0001 C CNN
+F 1 "GND" H 6755 2627 50  0000 C CNN
+F 2 "" H 6750 2800 50  0001 C CNN
+F 3 "" H 6750 2800 50  0001 C CNN
+	1    6750 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 2800 6450 2700
+Wire Wire Line
+	6450 2700 6500 2700
+Wire Wire Line
+	6700 2700 6750 2700
+Wire Wire Line
+	6750 2700 6750 2800
+$EndSCHEMATC

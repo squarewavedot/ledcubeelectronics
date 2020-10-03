@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name kiss)(type KiCad)(uri ${KIPRJMOD}/../lib/kiss.pretty)(options "")(descr ""))
+  (lib (name pkl_buttons_switches)(type KiCad)(uri ${KIPRJMOD}/../../../kiss-masterboard/v0.2/lib/pretty-kicad-libs/pkl_buttons_switches.pretty)(options "")(descr ""))
+  (lib (name logos)(type KiCad)(uri ${KIPRJMOD}/../../../logos.pretty)(options "")(descr ""))
+)

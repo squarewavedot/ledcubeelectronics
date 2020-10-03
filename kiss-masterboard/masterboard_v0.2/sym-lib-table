@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name kiss)(type Legacy)(uri ${KIPRJMOD}/lib/kiss.lib)(options "")(descr ""))
+  (lib (name Power_Board)(type Legacy)(uri "${KIPRJMOD}/lib/Power Board Symbols.lib")(options "")(descr ""))
+  (lib (name pkl_lattice)(type Legacy)(uri ${KIPRJMOD}/lib/pretty-kicad-libs/pkl_lattice.lib)(options "")(descr ""))
+  (lib (name pkl_ftdi)(type Legacy)(uri ${KIPRJMOD}/lib/pretty-kicad-libs/pkl_ftdi.lib)(options "")(descr ""))
+  (lib (name pkl_device)(type Legacy)(uri ${KIPRJMOD}/lib/pretty-kicad-libs/pkl_device.lib)(options "")(descr ""))
+  (lib (name pkl_conn)(type Legacy)(uri ${KIPRJMOD}/lib/pretty-kicad-libs/pkl_conn.lib)(options "")(descr ""))
+  (lib (name pkl_memory)(type Legacy)(uri ${KIPRJMOD}/lib/pretty-kicad-libs/pkl_memory.lib)(options "")(descr ""))
+  (lib (name pkl_misc)(type Legacy)(uri ${KIPRJMOD}/lib/pretty-kicad-libs/pkl_misc.lib)(options "")(descr ""))
+  (lib (name kiss-masterboard-eagle-import)(type Legacy)(uri ${KIPRJMOD}/kiss-masterboard-eagle-import.lib)(options "")(descr ""))
+)

@@ -1,0 +1,389 @@
+EESchema Schematic File Version 4
+LIBS:kiss-masterboard-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 7
+Title "LEDCube masterboard"
+Date "2019-06-11"
+Rev "0.2a"
+Comp "squarewave / @zzaurak"
+Comment1 "https://github.com/kbob/LED-Cube"
+Comment2 "original design by Bob Miller and George Ioakimedes"
+Comment3 ""
+Comment4 "License: CC-BY-SA V4.0"
+$EndDescr
+Text HLabel 1350 2300 0    50   BiDi ~ 0
+SDA
+Text HLabel 1350 2500 0    50   BiDi ~ 0
+SCL
+Text HLabel 900  1000 0    50   Input ~ 0
+3v3
+Wire Wire Line
+	3000 3000 3250 3000
+Wire Wire Line
+	3250 3000 3250 3800
+Wire Wire Line
+	2300 3500 2300 3800
+$Comp
+L power:GND #PWR?
+U 1 1 5FE38049
+P 3250 3800
+AR Path="/5CBBBF0A/5FE38049" Ref="#PWR?"  Part="1" 
+AR Path="/5FE38049" Ref="#PWR?"  Part="1" 
+AR Path="/5D4C8EB2/5FE38049" Ref="#PWR?"  Part="1" 
+AR Path="/5FE3716B/5FE38049" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 3250 3550 50  0001 C CNN
+F 1 "GND" H 3255 3627 50  0000 C CNN
+F 2 "" H 3250 3800 50  0001 C CNN
+F 3 "" H 3250 3800 50  0001 C CNN
+	1    3250 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FE3804F
+P 2300 3800
+AR Path="/5CBBBF0A/5FE3804F" Ref="#PWR?"  Part="1" 
+AR Path="/5FE3804F" Ref="#PWR?"  Part="1" 
+AR Path="/5D4C8EB2/5FE3804F" Ref="#PWR?"  Part="1" 
+AR Path="/5FE3716B/5FE3804F" Ref="#PWR0133"  Part="1" 
+F 0 "#PWR0133" H 2300 3550 50  0001 C CNN
+F 1 "GND" H 2305 3627 50  0000 C CNN
+F 2 "" H 2300 3800 50  0001 C CNN
+F 3 "" H 2300 3800 50  0001 C CNN
+	1    2300 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2600 1050 2600
+Wire Wire Line
+	1600 2300 1350 2300
+Wire Wire Line
+	1600 2500 1350 2500
+$Comp
+L Device:C C?
+U 1 1 5FE3805B
+P 3550 3150
+AR Path="/5CBBBF0A/5FE3805B" Ref="C?"  Part="1" 
+AR Path="/5FE3805B" Ref="C?"  Part="1" 
+AR Path="/5D4C8EB2/5FE3805B" Ref="C?"  Part="1" 
+AR Path="/5FE3716B/5FE3805B" Ref="C68"  Part="1" 
+F 0 "C68" H 3665 3196 50  0000 L CNN
+F 1 "100nF" H 3665 3105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3588 3000 50  0001 C CNN
+F 3 "~" H 3550 3150 50  0001 C CNN
+F 4 "-" H -2250 -900 50  0001 C CNN "Digikey No."
+F 5 "Murata" H -2250 -900 50  0001 C CNN "Manufacturer"
+F 6 "GRM188R71C104KA01D" H -2250 -900 50  0001 C CNN "Part No."
+	1    3550 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2800 3550 2800
+Wire Wire Line
+	3550 2800 3550 3000
+Wire Wire Line
+	3550 3300 3550 3800
+$Comp
+L power:GND #PWR?
+U 1 1 5FE38065
+P 3550 3800
+AR Path="/5CBBBF0A/5FE38065" Ref="#PWR?"  Part="1" 
+AR Path="/5FE38065" Ref="#PWR?"  Part="1" 
+AR Path="/5D4C8EB2/5FE38065" Ref="#PWR?"  Part="1" 
+AR Path="/5FE3716B/5FE38065" Ref="#PWR0137"  Part="1" 
+F 0 "#PWR0137" H 3550 3550 50  0001 C CNN
+F 1 "GND" H 3555 3627 50  0000 C CNN
+F 2 "" H 3550 3800 50  0001 C CNN
+F 3 "" H 3550 3800 50  0001 C CNN
+	1    3550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FE3806E
+P 1700 1350
+AR Path="/5CBBBF0A/5FE3806E" Ref="C?"  Part="1" 
+AR Path="/5FE3806E" Ref="C?"  Part="1" 
+AR Path="/5D4C8EB2/5FE3806E" Ref="C?"  Part="1" 
+AR Path="/5FE3716B/5FE3806E" Ref="C66"  Part="1" 
+F 0 "C66" H 1815 1396 50  0000 L CNN
+F 1 "10nF" H 1815 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1738 1200 50  0001 C CNN
+F 3 "~" H 1700 1350 50  0001 C CNN
+F 4 "-" H -2250 -900 50  0001 C CNN "Digikey No."
+F 5 "Murata" H -2250 -900 50  0001 C CNN "Manufacturer"
+F 6 "GRM188R71H103KA01D" H -2250 -900 50  0001 C CNN "Part No."
+	1    1700 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FE38075
+P 2750 1600
+AR Path="/5CBBBF0A/5FE38075" Ref="#PWR?"  Part="1" 
+AR Path="/5FE38075" Ref="#PWR?"  Part="1" 
+AR Path="/5D4C8EB2/5FE38075" Ref="#PWR?"  Part="1" 
+AR Path="/5FE3716B/5FE38075" Ref="#PWR0147"  Part="1" 
+F 0 "#PWR0147" H 2750 1350 50  0001 C CNN
+F 1 "GND" H 2755 1427 50  0000 C CNN
+F 2 "" H 2750 1600 50  0001 C CNN
+F 3 "" H 2750 1600 50  0001 C CNN
+	1    2750 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 1500 2750 1600
+$Comp
+L Device:C C?
+U 1 1 5FE3807F
+P 2750 1350
+AR Path="/5CBBBF0A/5FE3807F" Ref="C?"  Part="1" 
+AR Path="/5FE3807F" Ref="C?"  Part="1" 
+AR Path="/5D4C8EB2/5FE3807F" Ref="C?"  Part="1" 
+AR Path="/5FE3716B/5FE3807F" Ref="C67"  Part="1" 
+F 0 "C67" H 2865 1396 50  0000 L CNN
+F 1 "100nF" H 2865 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2865 1259 50  0001 L CNN
+F 3 "~" H 2750 1350 50  0001 C CNN
+F 4 "-" H -2250 -900 50  0001 C CNN "Digikey No."
+F 5 "Murata" H -2250 -900 50  0001 C CNN "Manufacturer"
+F 6 "GRM188R71C104KA01D" H -2250 -900 50  0001 C CNN "Part No."
+	1    2750 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Motion:MPU-9250 U?
+U 1 1 5FE38089
+P 2300 2600
+AR Path="/5CBBBF0A/5FE38089" Ref="U?"  Part="1" 
+AR Path="/5FE38089" Ref="U?"  Part="1" 
+AR Path="/5D4C8EB2/5FE38089" Ref="U?"  Part="1" 
+AR Path="/5FE3716B/5FE38089" Ref="U15"  Part="1" 
+F 0 "U15" H 1850 3400 50  0000 C CNN
+F 1 "MPU-9250" H 2600 1850 50  0000 C CNN
+F 2 "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm" H 2300 1600 50  0001 C CNN
+F 3 "https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf" H 2300 2450 50  0001 C CNN
+F 4 "1428-1019-1-ND" H -2250 -900 50  0001 C CNN "Digikey No."
+F 5 "InvenSense" H -2250 -900 50  0001 C CNN "Manufacturer"
+F 6 "MPU-9250" H -2250 -900 50  0001 C CNN "Part No."
+	1    2300 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1500 1700 1600
+Wire Wire Line
+	2200 1000 1700 1000
+Wire Wire Line
+	2200 1000 2200 1700
+Wire Wire Line
+	1700 1200 1700 1000
+Connection ~ 1700 1000
+Wire Wire Line
+	2400 1000 2750 1000
+Wire Wire Line
+	2400 1000 2400 1700
+Wire Wire Line
+	2750 1200 2750 1000
+$Comp
+L power:GND #PWR?
+U 1 1 5FE38098
+P 1700 1600
+AR Path="/5CBBBF0A/5FE38098" Ref="#PWR?"  Part="1" 
+AR Path="/5FE38098" Ref="#PWR?"  Part="1" 
+AR Path="/5D4C8EB2/5FE38098" Ref="#PWR?"  Part="1" 
+AR Path="/5FE3716B/5FE38098" Ref="#PWR0167"  Part="1" 
+F 0 "#PWR0167" H 1700 1350 50  0001 C CNN
+F 1 "GND" H 1705 1427 50  0000 C CNN
+F 2 "" H 1700 1600 50  0001 C CNN
+F 3 "" H 1700 1600 50  0001 C CNN
+	1    1700 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 1000 1050 2600
+NoConn ~ 3000 2300
+NoConn ~ 3000 2500
+NoConn ~ 3000 2600
+NoConn ~ 1600 2800
+NoConn ~ 1600 2400
+Text Label 3000 2900 0    50   ~ 0
+VDDIO
+Text Label 2200 1650 1    50   ~ 0
+VDDIO
+Wire Wire Line
+	1050 1000 1700 1000
+Wire Wire Line
+	2200 1000 2400 1000
+Connection ~ 2200 1000
+Connection ~ 2400 1000
+Wire Wire Line
+	900  1000 1050 1000
+Connection ~ 1050 1000
+Wire Notes Line
+	600  600  4050 600 
+Wire Notes Line
+	4050 600  4050 4300
+Wire Notes Line
+	4050 4300 600  4300
+Wire Notes Line
+	600  4300 600  600 
+Text Notes 650  750  0    60   ~ 0
+IMU\n
+$Comp
+L Power_Board:ADS1000 U16
+U 1 1 5CB6826E
+P 6000 2400
+F 0 "U16" H 5750 2750 50  0000 C CNN
+F 1 "ADS1000" H 5750 2050 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 6000 1450 50  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ads1000.pdf" H 6000 2400 50  0001 C CNN
+F 4 "296-38847-1-ND" H 50  -1450 50  0001 C CNN "Digikey No."
+F 5 "TI" H 50  -1450 50  0001 C CNN "Manufacturer"
+F 6 "ADS1000A0IDBVR" H 50  -1450 50  0001 C CNN "Part No."
+	1    6000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0168
+U 1 1 5CB68EA0
+P 5500 3000
+F 0 "#PWR0168" H 5500 2750 50  0001 C CNN
+F 1 "GND" H 5505 2827 50  0000 C CNN
+F 2 "" H 5500 3000 50  0001 C CNN
+F 3 "" H 5500 3000 50  0001 C CNN
+	1    5500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0169
+U 1 1 5CB69452
+P 6000 3000
+F 0 "#PWR0169" H 6000 2750 50  0001 C CNN
+F 1 "GND" H 6005 2827 50  0000 C CNN
+F 2 "" H 6000 3000 50  0001 C CNN
+F 3 "" H 6000 3000 50  0001 C CNN
+	1    6000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R49
+U 1 1 5CB69830
+P 5000 1950
+F 0 "R49" H 5070 1996 50  0000 L CNN
+F 1 "10K 1%" H 5070 1905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4930 1950 50  0001 C CNN
+F 3 "~" H 5000 1950 50  0001 C CNN
+F 4 "RNCP0603FTD10K0CT-ND" H 50  -1450 50  0001 C CNN "Digikey No."
+F 5 "Stackpole" H 50  -1450 50  0001 C CNN "Manufacturer"
+F 6 "RNCP0603FTD10K0" H 50  -1450 50  0001 C CNN "Part No."
+	1    5000 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R50
+U 1 1 5CB69D57
+P 5000 2650
+F 0 "R50" H 5070 2696 50  0000 L CNN
+F 1 "1.78K 1%" H 5070 2605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4930 2650 50  0001 C CNN
+F 3 "~" H 5000 2650 50  0001 C CNN
+F 4 "311-17.8KHRCT-ND" H 50  -1450 50  0001 C CNN "Digikey No."
+F 5 "Yageo" H 50  -1450 50  0001 C CNN "Manufacturer"
+F 6 "RC0603FR-0717K8L" H 50  -1450 50  0001 C CNN "Part No."
+	1    5000 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0170
+U 1 1 5CB6A4C1
+P 5000 3000
+F 0 "#PWR0170" H 5000 2750 50  0001 C CNN
+F 1 "GND" H 5005 2827 50  0000 C CNN
+F 2 "" H 5000 3000 50  0001 C CNN
+F 3 "" H 5000 3000 50  0001 C CNN
+	1    5000 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2800 6000 3000
+Wire Wire Line
+	5600 2500 5500 2500
+Wire Wire Line
+	5500 2500 5500 3000
+Wire Wire Line
+	5600 2300 5000 2300
+Wire Wire Line
+	5000 2100 5000 2300
+Connection ~ 5000 2300
+Wire Wire Line
+	5000 2300 5000 2500
+Wire Wire Line
+	5000 2800 5000 3000
+Wire Wire Line
+	5000 1800 5000 1600
+Wire Wire Line
+	5000 1600 4950 1600
+Wire Wire Line
+	6000 2000 6000 1850
+Wire Wire Line
+	6000 1600 5950 1600
+Wire Wire Line
+	6600 2500 6400 2500
+Wire Wire Line
+	6400 2300 6600 2300
+$Comp
+L Device:C C69
+U 1 1 5CB75E54
+P 7200 2400
+F 0 "C69" H 7315 2446 50  0000 L CNN
+F 1 "100nF" H 7315 2355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7238 2250 50  0001 C CNN
+F 3 "~" H 7200 2400 50  0001 C CNN
+F 4 "-" H 50  -1450 50  0001 C CNN "Digikey No."
+F 5 "Murata" H 50  -1450 50  0001 C CNN "Manufacturer"
+F 6 "GRM188R71C104KA01D" H 50  -1450 50  0001 C CNN "Part No."
+	1    7200 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 1850 7200 1850
+Wire Wire Line
+	7200 1850 7200 2250
+Connection ~ 6000 1850
+Wire Wire Line
+	6000 1850 6000 1600
+Wire Wire Line
+	7200 2550 7200 3000
+$Comp
+L power:GND #PWR0193
+U 1 1 5CB77FAB
+P 7200 3000
+F 0 "#PWR0193" H 7200 2750 50  0001 C CNN
+F 1 "GND" H 7205 2827 50  0000 C CNN
+F 2 "" H 7200 3000 50  0001 C CNN
+F 3 "" H 7200 3000 50  0001 C CNN
+	1    7200 3000
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4150 600  4150 4300
+Wire Notes Line
+	4150 4300 7850 4300
+Wire Notes Line
+	7850 4300 7850 600 
+Wire Notes Line
+	7850 600  4150 600 
+Text Notes 4200 750  0    60   ~ 0
+AD Wandler
+Text HLabel 5950 1600 0    50   Input ~ 0
+3v3
+Text HLabel 6600 2500 2    50   BiDi ~ 0
+SDA
+Text HLabel 6600 2300 2    50   BiDi ~ 0
+SCL
+Text HLabel 4950 1600 0    50   Input ~ 0
+VBat
+$EndSCHEMATC
