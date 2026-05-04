@@ -1,4 +1,6 @@
 (sym_lib_table
-  (lib (name kiss)(type Legacy)(uri ${KIPRJMOD}/../lib/kiss.lib)(options "")(descr ""))
-  (lib (name kiss-battery_bottom-rescue)(type Legacy)(uri ${KIPRJMOD}/kiss-battery_bottom-rescue.lib)(options "")(descr ""))
+	(version 7)
+	(lib (name "kiss") (type "Legacy") (uri "${KIPRJMOD}/../lib/kiss.lib") (options "") (descr ""))
+	(lib (name "kiss-battery_bottom-rescue") (type "Legacy") (uri "${KIPRJMOD}/kiss-battery_bottom-rescue.lib") (options "") (descr ""))
+	(lib (name "kiss-battery_bottom-cache") (type "Legacy") (uri "/Users/bjoern/Working/cube2.0/ledcubeelectronics/kiss-battery/v0.2/bottom/kiss-battery_bottom-cache.lib") (options "") (descr "Legacy project cache library"))
 )

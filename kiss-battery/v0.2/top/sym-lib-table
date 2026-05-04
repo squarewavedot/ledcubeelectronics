@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name kiss)(type Legacy)(uri ${KIPRJMOD}/../lib/kiss.lib)(options "")(descr ""))
+	(version 7)
+	(lib (name "kiss") (type "Legacy") (uri "${KIPRJMOD}/../lib/kiss.lib") (options "") (descr ""))
+	(lib (name "kiss-battery_top-cache") (type "Legacy") (uri "/Users/bjoern/Working/cube2.0/ledcubeelectronics/kiss-battery/v0.2/top/kiss-battery_top-cache.lib") (options "") (descr "Legacy project cache library"))
 )
