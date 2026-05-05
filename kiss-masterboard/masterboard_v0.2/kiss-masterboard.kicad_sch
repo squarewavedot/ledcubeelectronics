@@ -1439,6 +1439,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Neue Batterie Spannungslogik hier"
+		(exclude_from_sim no)
+		(at 128.524 134.366 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "4aa2e470-9bea-4106-8e6f-0a0e96eba700")
+	)
 	(text "TODO Route to Raspi?"
 		(exclude_from_sim no)
 		(at 168.402 43.688 0)
@@ -1542,8 +1552,24 @@
 		(uuid "e9e16ad7-9141-4965-92d3-f1ad9bef42b5")
 	)
 	(no_connect
+		(at 127 125.73)
+		(uuid "44a40b2c-c90f-4a5f-a997-430d21a27557")
+	)
+	(no_connect
+		(at 127 137.16)
+		(uuid "8c745783-7524-436a-845c-570ba5c67d38")
+	)
+	(no_connect
 		(at 152.4 43.18)
 		(uuid "ce296aba-975f-494f-bac3-0d1d1cd11669")
+	)
+	(no_connect
+		(at 127 128.27)
+		(uuid "db5ff1d1-ebfa-4fa9-9c0d-623cdd01a557")
+	)
+	(no_connect
+		(at 127 139.7)
+		(uuid "e6377a50-15b6-4640-8f5c-8df51fe94ed8")
 	)
 	(wire
 		(pts
@@ -6178,92 +6204,6 @@
 			(project "kiss-masterboard"
 				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 127 123.19)
-		(size 21.59 19.05)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "00000000-0000-0000-0000-00005fe3716b")
-		(property "Sheetname" "Sensors"
-			(at 127 122.4784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Sensors.kicad_sch"
-			(at 127 142.8246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "SDA" bidirectional
-			(at 127 137.16 180)
-			(uuid "99565127-dd29-4174-9fc0-a2c7afcfc247")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SCL" bidirectional
-			(at 127 139.7 180)
-			(uuid "5bde8764-d269-4b70-885b-1b6c1118543e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "3v3" input
-			(at 127 125.73 180)
-			(uuid "18257934-ac94-4f19-b95b-2936b53ad451")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VBat" input
-			(at 127 128.27 180)
-			(uuid "172c5346-fe38-408c-9e5f-fa521e6413a8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434"
-					(page "7")
 				)
 			)
 		)
