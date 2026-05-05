@@ -4244,263 +4244,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "pkl_device:pkl_R4_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "pkl_R4_Small"
-				(at 0.762 -1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor Array x4"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Resistor Array x4"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Resistor_* R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "pkl_R4_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "pkl_R4_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "pkl_R4_Small_2_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "pkl_R4_Small_3_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "pkl_R4_Small_4_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "pkl_device:pkl_VREG_5PIN_FIXED"
 			(pin_names
 				(offset 1.016)
@@ -8537,6 +8280,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 250.19) (xy 189.23 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b52e1c5-212c-45d0-8072-9fd7643e4a1d")
+	)
+	(wire
+		(pts
 			(xy 38.1 247.65) (xy 35.56 247.65)
 		)
 		(stroke
@@ -12434,16 +12187,6 @@
 			(type default)
 		)
 		(uuid "dacedb39-74be-4565-ae5e-3b1656391f8f")
-	)
-	(wire
-		(pts
-			(xy 184.15 250.19) (xy 189.23 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db280784-03ed-4197-9fb4-6e779f7df73f")
 	)
 	(polyline
 		(pts
@@ -16673,7 +16416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 151.13 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -19660,2974 +19403,6 @@
 				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
 					(reference "#PWR0157")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 134.62 207.01 90)
-		(unit 4)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d8bcac1")
-		(property "Reference" "R13"
-			(at 138.43 205.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 130.81 205.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 134.62 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 195.58 405.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "718d1bce-d14a-4a40-8195-2c27fcfca026")
-		)
-		(pin "2"
-			(uuid "dc7b09ee-be1e-4ced-9fb0-ab6cd95a71ac")
-		)
-		(pin "3"
-			(uuid "88c72721-5423-42f7-ad94-54b7e20b39d0")
-		)
-		(pin "4"
-			(uuid "edc11bad-e035-4537-86fe-5b76dcbecbda")
-		)
-		(pin "5"
-			(uuid "e64703f2-d2eb-4514-a51f-947657fcb3a3")
-		)
-		(pin "6"
-			(uuid "b22dd8e5-e1af-4007-b602-11a5d2776fa1")
-		)
-		(pin "7"
-			(uuid "f199d459-6a85-41fd-bb32-b04a279ab42f")
-		)
-		(pin "8"
-			(uuid "08ff8f55-86e3-4251-b86f-709252f1d9fe")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R13")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 134.62 209.55 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d9c3c81")
-		(property "Reference" "R18"
-			(at 138.43 208.28 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 130.81 208.28 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 134.62 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 209.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 209.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 195.58 407.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "61c64036-0f9c-450a-88b5-b870433707da")
-		)
-		(pin "2"
-			(uuid "3094f20c-6c10-4474-9282-285bb0d543d7")
-		)
-		(pin "3"
-			(uuid "879a0f94-f46e-45fd-a84b-ebcd7c26c1dd")
-		)
-		(pin "4"
-			(uuid "01f7ad71-8182-4980-a62e-64525fcb7ea2")
-		)
-		(pin "5"
-			(uuid "9229b9bd-5b63-4f01-bd48-4e6851aeb51f")
-		)
-		(pin "6"
-			(uuid "b84e2638-d120-4d13-8bed-6334b23fe7fa")
-		)
-		(pin "7"
-			(uuid "c0ba635a-372b-4718-be6b-f863a4be4b18")
-		)
-		(pin "8"
-			(uuid "98fb28d6-2df2-4e72-8a58-27e9eeded4ab")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 134.62 212.09 90)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d9c3e7d")
-		(property "Reference" "R18"
-			(at 138.43 210.82 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 130.81 210.82 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 134.62 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 212.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 212.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 195.58 410.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "65f0f8d0-97f1-4ebc-ab57-f5259d419554")
-		)
-		(pin "2"
-			(uuid "6efb18fe-4aac-43a3-828b-8cfa4eb29da6")
-		)
-		(pin "3"
-			(uuid "ef894912-2a46-41f4-874d-6feaebb25ec7")
-		)
-		(pin "4"
-			(uuid "91eac68a-5a98-44e0-b36b-828a220d3ebc")
-		)
-		(pin "5"
-			(uuid "75dda37f-ce21-4acd-a306-e502880225b8")
-		)
-		(pin "6"
-			(uuid "cbd6734d-2c4f-4ada-a8e6-43dde58ce413")
-		)
-		(pin "7"
-			(uuid "202b0781-75e0-48c3-9f71-53fc1f051820")
-		)
-		(pin "8"
-			(uuid "ee6eb0db-4fb2-41f4-95eb-e23ff2df83b5")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R18")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 134.62 214.63 90)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d9c4309")
-		(property "Reference" "R18"
-			(at 138.43 213.36 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 130.81 213.36 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 134.62 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 214.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 214.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 195.58 412.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dfb97310-567f-454a-8ebd-ede6857ea488")
-		)
-		(pin "2"
-			(uuid "caa6bba9-a208-46b7-a739-ad309c705cc8")
-		)
-		(pin "3"
-			(uuid "ca7b9c93-7dba-4568-a289-b1541d4ecfd6")
-		)
-		(pin "4"
-			(uuid "127dcf49-484e-4304-ad44-dc6dade2a037")
-		)
-		(pin "5"
-			(uuid "c34b6241-fa58-46d0-917a-5ab57198fe3a")
-		)
-		(pin "6"
-			(uuid "b75472d7-8ac4-4bc0-9b4c-4f28dbd8035c")
-		)
-		(pin "7"
-			(uuid "3bcd8799-08a5-48f5-b833-03a952e98762")
-		)
-		(pin "8"
-			(uuid "5d83550c-a881-452d-a590-96e0af5d12e4")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R18")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 134.62 217.17 90)
-		(unit 4)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d9c455d")
-		(property "Reference" "R18"
-			(at 138.43 215.9 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 130.81 215.9 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 134.62 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 217.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 217.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 195.58 415.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "89eec66e-836b-4a00-99dc-5359d3366f44")
-		)
-		(pin "2"
-			(uuid "4fcc856d-e166-46cb-906c-4c46bea0b1a5")
-		)
-		(pin "3"
-			(uuid "f1476207-4d32-4eb4-9d7e-cf002c2d9319")
-		)
-		(pin "4"
-			(uuid "9e8bb742-dd80-4694-bc90-a84232fd5895")
-		)
-		(pin "5"
-			(uuid "1744d524-165d-4f8c-960a-7a061e57c3b1")
-		)
-		(pin "6"
-			(uuid "2f89354a-2584-4b4c-8284-b4815d945a2e")
-		)
-		(pin "7"
-			(uuid "e049224b-0cef-45f2-a97b-4efc884f0858")
-		)
-		(pin "8"
-			(uuid "0fdf220c-7ea5-4ab6-b9cf-a90f23f2c73c")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R18")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 134.62 219.71 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d9c4725")
-		(property "Reference" "R19"
-			(at 138.43 218.44 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 130.81 218.44 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 134.62 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 219.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 219.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 195.58 417.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f437e62f-ce5e-4285-8b72-bc0c06bfca69")
-		)
-		(pin "2"
-			(uuid "36431b64-5b66-437f-8f03-4bb367497681")
-		)
-		(pin "3"
-			(uuid "4977633c-d48e-4dfd-9f3f-175f17c08ed3")
-		)
-		(pin "4"
-			(uuid "9ef00e89-36d4-430a-8b4d-ff49f892963d")
-		)
-		(pin "5"
-			(uuid "121a053d-4fe5-455a-a14c-c4bfa32e70a4")
-		)
-		(pin "6"
-			(uuid "ccfe5996-5c84-4767-aaaa-426b20f3f744")
-		)
-		(pin "7"
-			(uuid "b39befae-f0d5-4dde-a508-bb32cc2826a5")
-		)
-		(pin "8"
-			(uuid "643a3c00-b433-4e23-a880-d5094d85142a")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 134.62 222.25 90)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d9c48f3")
-		(property "Reference" "R19"
-			(at 138.43 220.98 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 130.81 220.98 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 134.62 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 222.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 222.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 195.58 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "872f861b-65db-4f7c-b18d-dfabdae86020")
-		)
-		(pin "2"
-			(uuid "2f9da630-27d4-4170-84bd-51a298d137e5")
-		)
-		(pin "3"
-			(uuid "24b82096-3514-4a2b-986a-92a4a6a13680")
-		)
-		(pin "4"
-			(uuid "203bbc63-c0ac-4150-8694-05971d50fc86")
-		)
-		(pin "5"
-			(uuid "5312342a-4bf4-4897-ac19-2abe2fd5ba9e")
-		)
-		(pin "6"
-			(uuid "a6b99768-ea97-4840-a3d9-99010a48ae83")
-		)
-		(pin "7"
-			(uuid "22bb6a63-268b-4611-834e-7aead2fa02a0")
-		)
-		(pin "8"
-			(uuid "c2af64db-553f-4131-9820-e1978bac1503")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R19")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 134.62 224.79 90)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d9c4ac7")
-		(property "Reference" "R19"
-			(at 138.43 223.52 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 130.81 223.52 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 134.62 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 224.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 224.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 195.58 422.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "47a41ac7-d3c8-466a-90bb-8b25cb3ed11f")
-		)
-		(pin "2"
-			(uuid "8947e596-a22a-46cb-a004-490486818b74")
-		)
-		(pin "3"
-			(uuid "f0696122-5e2f-4200-ba1e-72db9357eb05")
-		)
-		(pin "4"
-			(uuid "8ee0b3a8-7761-4eed-b7dc-05dd865d071e")
-		)
-		(pin "5"
-			(uuid "5b90bcf4-7a15-4971-8fda-45e988561258")
-		)
-		(pin "6"
-			(uuid "582bf54e-fd46-4c0b-bbeb-684c5c0d723a")
-		)
-		(pin "7"
-			(uuid "19fd794a-61fa-4ab0-9e02-11a8764623fd")
-		)
-		(pin "8"
-			(uuid "2932fc7b-fe6b-4ec8-a605-f151096e9eb9")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R19")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 77.47 245.11 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d9c6e47")
-		(property "Reference" "R12"
-			(at 81.28 243.84 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 73.66 243.84 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 77.47 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 245.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 245.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 138.43 443.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9f21e816-d8b3-4dd8-9e06-696acd88b0c7")
-		)
-		(pin "2"
-			(uuid "26ca65e9-a9d7-457f-9641-34f760a9418d")
-		)
-		(pin "3"
-			(uuid "981722dc-024d-4937-a3ef-750244dee708")
-		)
-		(pin "4"
-			(uuid "33180c05-e0de-4f0d-aea1-9e881498fb88")
-		)
-		(pin "5"
-			(uuid "503f6990-428b-4f14-a9cc-eb380073a3fd")
-		)
-		(pin "6"
-			(uuid "27d0ff51-6ff0-4132-830e-3786084f41d6")
-		)
-		(pin "7"
-			(uuid "c506698f-e683-4908-9e95-f55ccc596388")
-		)
-		(pin "8"
-			(uuid "c162ad59-7462-437e-8f07-ecea9f056b75")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 77.47 247.65 90)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d9c6e4f")
-		(property "Reference" "R12"
-			(at 81.28 246.38 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 73.66 246.38 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 77.47 247.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 247.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 247.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 138.43 445.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1a8ce3f6-4146-4cd3-88cb-4ad849b25227")
-		)
-		(pin "2"
-			(uuid "0603dcf6-f477-47da-8937-3b1d6806f0b3")
-		)
-		(pin "3"
-			(uuid "7836de34-ea6d-47a8-86f6-820851e8a502")
-		)
-		(pin "4"
-			(uuid "4f72274a-1979-495f-af30-e853a5a7e60f")
-		)
-		(pin "5"
-			(uuid "bcf409b0-57f3-42de-8bf1-c74b2a384ebb")
-		)
-		(pin "6"
-			(uuid "0b4d5cd7-bbaf-4796-984a-bfa7b0a73cf6")
-		)
-		(pin "7"
-			(uuid "8d1c6b51-ca56-453d-a608-1fafa31b2b3b")
-		)
-		(pin "8"
-			(uuid "c71dbb8b-2bd3-4daf-bd6d-994d820ebe28")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R12")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 77.47 250.19 90)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d9c6e57")
-		(property "Reference" "R12"
-			(at 81.28 248.92 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 73.66 248.92 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 77.47 250.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 250.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 250.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 138.43 448.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "43654b49-d22e-4edb-82b1-046e22c2e065")
-		)
-		(pin "2"
-			(uuid "116ca565-4cbb-4631-b378-dbfb4bfa4fdc")
-		)
-		(pin "3"
-			(uuid "21e32f28-b886-49f8-a0de-d381b286caa0")
-		)
-		(pin "4"
-			(uuid "75085366-052d-4a8c-831d-5f87f24f4f07")
-		)
-		(pin "5"
-			(uuid "a6a89aa9-abe4-49e6-b617-286b0af3c977")
-		)
-		(pin "6"
-			(uuid "27a224d5-4452-454f-b7a6-07d4a7b5a848")
-		)
-		(pin "7"
-			(uuid "93df26e5-a64b-437a-82ae-3d64db59a446")
-		)
-		(pin "8"
-			(uuid "fa66c549-64b5-4a85-b809-15aac6e828f6")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R12")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 77.47 252.73 90)
-		(unit 4)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d9c6e5f")
-		(property "Reference" "R12"
-			(at 81.28 251.46 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 73.66 251.46 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 77.47 252.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 252.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 252.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 138.43 450.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f5e9a19b-1a08-4b9c-b5d9-a3a9071ead48")
-		)
-		(pin "2"
-			(uuid "4e62564a-1252-4784-8163-f7d21f19b8e9")
-		)
-		(pin "3"
-			(uuid "4a7621f7-3b85-4e0d-ac6a-d6cff1183dc9")
-		)
-		(pin "4"
-			(uuid "a803de4f-2925-4210-86d1-a1d125da6cd5")
-		)
-		(pin "5"
-			(uuid "465fe14a-dbbc-4f3e-8cbd-bf4ff5fecf15")
-		)
-		(pin "6"
-			(uuid "ff3249c4-21aa-4ee0-8ec5-8dcaff60106b")
-		)
-		(pin "7"
-			(uuid "6e1ac091-bc77-43dd-b076-32af1e5512ff")
-		)
-		(pin "8"
-			(uuid "46f9600a-afeb-41da-a89a-be69e95b5330")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R12")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 77.47 255.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d9c6e67")
-		(property "Reference" "R13"
-			(at 81.28 254 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 73.66 254 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 77.47 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 255.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 255.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 138.43 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fc0b33c3-ef7c-4dc3-aed9-a053a737fac9")
-		)
-		(pin "2"
-			(uuid "63aeb0f1-8fee-44a3-8537-dd0f4d06ffc8")
-		)
-		(pin "3"
-			(uuid "3f437434-c23c-40d0-8655-f01150b11a2c")
-		)
-		(pin "4"
-			(uuid "c505f47b-24a2-469e-a278-01a59f6a2fb5")
-		)
-		(pin "5"
-			(uuid "e3350b33-2ccc-408c-923c-90f02f8cccd9")
-		)
-		(pin "6"
-			(uuid "74a926ab-0ee7-4c69-8d84-dae7e8c082e6")
-		)
-		(pin "7"
-			(uuid "39e3fcd4-a36a-4942-b332-503543b5ca59")
-		)
-		(pin "8"
-			(uuid "01cd2af9-00e9-4826-b240-43ee562e4f02")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 77.47 257.81 90)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d9c6e6f")
-		(property "Reference" "R13"
-			(at 81.28 256.54 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 73.66 256.54 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 77.47 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 257.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 257.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 138.43 455.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0b81a351-0d47-40a9-b2b5-8ded70d7af77")
-		)
-		(pin "2"
-			(uuid "fdbd196a-7bde-4a87-b12b-598a23d08bed")
-		)
-		(pin "3"
-			(uuid "b9dbf6c7-5233-4461-81d1-c1d6b88723cf")
-		)
-		(pin "4"
-			(uuid "d5263f94-a29d-4ee9-84bc-5ab244b519c6")
-		)
-		(pin "5"
-			(uuid "6bca08e4-acc6-4bd3-8055-44078d2ab5b4")
-		)
-		(pin "6"
-			(uuid "48918308-ab3b-4c00-94ab-fff67b382858")
-		)
-		(pin "7"
-			(uuid "3e81dd37-aa56-411a-8129-752562cf3b6a")
-		)
-		(pin "8"
-			(uuid "c61cac86-71a8-4289-a744-4d6a4eb2dc70")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R13")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 209.55 267.97 90)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d9c6e77")
-		(property "Reference" "R29"
-			(at 213.36 266.7 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 205.74 266.7 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 209.55 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 267.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 209.55 267.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 270.51 466.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e4259627-cb9c-47a0-b72c-3cbd13c66ddb")
-		)
-		(pin "2"
-			(uuid "4376e608-b8f0-4d18-bdcb-ddd7311f0c22")
-		)
-		(pin "3"
-			(uuid "1d17993e-69ef-448e-9b2c-b9fe4284a6fe")
-		)
-		(pin "4"
-			(uuid "e9543fa7-6ed2-4d3b-b475-80a573f9d9df")
-		)
-		(pin "5"
-			(uuid "f34150ee-dc4d-43e7-bdcf-1785760ddb64")
-		)
-		(pin "6"
-			(uuid "08a8068a-c843-46e6-afc0-eb519ac5cf8d")
-		)
-		(pin "7"
-			(uuid "5f0833e3-47e7-4d95-86cc-802f6f1d7736")
-		)
-		(pin "8"
-			(uuid "fb13e728-a984-4391-aa34-c6b2795d5172")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R29")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 77.47 262.89 90)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d9c6e7f")
-		(property "Reference" "R13"
-			(at 81.28 261.62 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 73.66 261.62 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 77.47 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 262.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 262.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 138.43 461.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "95ad564d-d71f-446d-8bbe-e802bd916a52")
-		)
-		(pin "2"
-			(uuid "3809bba0-bed7-4b71-b6b5-d175403630b8")
-		)
-		(pin "3"
-			(uuid "17a8f2ce-44da-48ce-b658-8f50c8fa823e")
-		)
-		(pin "4"
-			(uuid "66568044-702a-4796-864e-979ccef042c6")
-		)
-		(pin "5"
-			(uuid "d0a5d9a6-0b1b-4cfc-9443-fe767469fa9c")
-		)
-		(pin "6"
-			(uuid "1babc09b-fee1-42cf-a35c-bc88312247bb")
-		)
-		(pin "7"
-			(uuid "9a1144e3-d93f-4374-94a2-514cf24b5743")
-		)
-		(pin "8"
-			(uuid "6377f85c-6df1-483a-8676-747fecc82ab6")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R13")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 181.61 250.19 90)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d9f951f")
-		(property "Reference" "R25"
-			(at 185.42 248.92 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 177.8 248.92 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 181.61 250.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 250.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 250.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 242.57 448.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9e957ef8-ab2e-4daf-82a3-7e0d3db374e4")
-		)
-		(pin "2"
-			(uuid "a354a496-2b68-4b9c-8233-6ae04800380c")
-		)
-		(pin "3"
-			(uuid "b1a65b12-4a68-4bca-9cb0-acab91ab47ef")
-		)
-		(pin "4"
-			(uuid "fcb58c5a-89f8-43ea-b203-2ab64fef8b34")
-		)
-		(pin "5"
-			(uuid "1e744569-7f2f-4218-a375-f0d0ae48ff53")
-		)
-		(pin "6"
-			(uuid "14027109-ee25-46eb-bd92-f4061033aa7d")
-		)
-		(pin "7"
-			(uuid "26d68a9f-82a6-4d85-9257-5a5c72c729fd")
-		)
-		(pin "8"
-			(uuid "5c9591d2-fd30-42d3-a745-e0ec876a96ca")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R25")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 209.55 252.73 90)
-		(unit 4)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d9f9527")
-		(property "Reference" "R25"
-			(at 213.36 251.46 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 205.74 251.46 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 209.55 252.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 252.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 209.55 252.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 270.51 450.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cfcc2574-e0f1-4577-b6c0-d9727ea7a457")
-		)
-		(pin "2"
-			(uuid "5c4de0e1-24c8-49b6-9086-4834012f3e20")
-		)
-		(pin "3"
-			(uuid "d3c3c87f-a74c-467e-af9f-37d5cd7a2585")
-		)
-		(pin "4"
-			(uuid "cb671e3a-be9a-43a8-8e3b-9df0efaac6e4")
-		)
-		(pin "5"
-			(uuid "289f22da-2eab-4fdb-af7a-4c527a4505fe")
-		)
-		(pin "6"
-			(uuid "d710ac0f-f24d-49d4-9dba-c0f540204873")
-		)
-		(pin "7"
-			(uuid "ef4d8c65-5507-4906-acac-95eb58a43557")
-		)
-		(pin "8"
-			(uuid "618de8e7-523a-4808-990c-b1c62bce3e08")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R25")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 209.55 255.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d9f952f")
-		(property "Reference" "R28"
-			(at 213.36 254 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 205.74 254 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 209.55 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 255.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 209.55 255.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 270.51 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "503fe221-f4a4-4d05-8c73-1fbe12312145")
-		)
-		(pin "2"
-			(uuid "7705a6bf-6445-4860-989c-22d0f3ea6581")
-		)
-		(pin "3"
-			(uuid "801486a8-f635-4dc3-8465-d1ca484a0310")
-		)
-		(pin "4"
-			(uuid "1105f299-75e1-4181-afdd-72be0ef2c276")
-		)
-		(pin "5"
-			(uuid "9f6b1abc-23f3-4852-b2aa-aeb31d1065f2")
-		)
-		(pin "6"
-			(uuid "9f69fa9e-f207-4388-8e26-c9d56c0237a7")
-		)
-		(pin "7"
-			(uuid "3aac1eb7-33fb-49a2-a2c3-d9544de82add")
-		)
-		(pin "8"
-			(uuid "a900569a-dbed-4b06-acd8-34cb518f8838")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 181.61 255.27 90)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d9f9537")
-		(property "Reference" "R28"
-			(at 185.42 254 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 177.8 254 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 181.61 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 255.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 255.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 242.57 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e24a37fb-e2ff-4e13-9a3d-b19598b756c8")
-		)
-		(pin "2"
-			(uuid "f83d7152-c6f6-4544-b949-bace5a306e68")
-		)
-		(pin "3"
-			(uuid "0a0ba5e5-3cd5-4bed-a0ef-8102c8fa434c")
-		)
-		(pin "4"
-			(uuid "d07a6fac-884e-4a0e-8e74-cac29f124c8f")
-		)
-		(pin "5"
-			(uuid "9a17afb0-f5d0-4cca-9175-d9bca974bc3d")
-		)
-		(pin "6"
-			(uuid "cf98f197-ad9b-4c33-901a-1a2eb259ad01")
-		)
-		(pin "7"
-			(uuid "c59ea183-332e-4319-98c6-dd978d8e78d1")
-		)
-		(pin "8"
-			(uuid "d69d57da-47a1-4440-99f6-717dd47f3102")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R28")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 209.55 257.81 90)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d9f953f")
-		(property "Reference" "R28"
-			(at 213.36 256.54 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 205.74 256.54 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 209.55 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 257.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 209.55 257.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 270.51 455.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "352ae5b3-67c9-47b4-9732-e6fda43c984d")
-		)
-		(pin "2"
-			(uuid "f4c98e83-d85f-4f2e-ab47-b28fa2269f5f")
-		)
-		(pin "3"
-			(uuid "07249b25-b73f-48ca-8620-d00fb7077e88")
-		)
-		(pin "4"
-			(uuid "4f4929b4-cdf8-4be9-9570-a601f5a5dc2b")
-		)
-		(pin "5"
-			(uuid "a749df1a-fbc0-4850-a847-e286d328dd95")
-		)
-		(pin "6"
-			(uuid "54d4b273-d0e7-4410-a18f-b761021e3856")
-		)
-		(pin "7"
-			(uuid "ca5b457e-6a31-4590-86a5-9b90d30ad002")
-		)
-		(pin "8"
-			(uuid "2d50e174-144b-4c37-aa09-63f11a8ae409")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R28")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 209.55 260.35 90)
-		(unit 4)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d9f9547")
-		(property "Reference" "R28"
-			(at 213.36 259.08 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 205.74 259.08 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 209.55 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 260.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 209.55 260.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 270.51 458.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0ddcd84a-acfd-4021-9bcb-9ac581044931")
-		)
-		(pin "2"
-			(uuid "1499e247-db06-4828-9e00-c280e79f5405")
-		)
-		(pin "3"
-			(uuid "1441b651-646c-47a8-a245-50d3618add73")
-		)
-		(pin "4"
-			(uuid "2aff28f2-0ca3-4887-ba60-ea9c6e833a97")
-		)
-		(pin "5"
-			(uuid "2507eb82-d9cd-4a63-a5c1-baad0c10b863")
-		)
-		(pin "6"
-			(uuid "b92a89db-7b2a-4314-8677-76cfe5700d4d")
-		)
-		(pin "7"
-			(uuid "8378325c-b1fb-401e-8888-fd347cc45ef5")
-		)
-		(pin "8"
-			(uuid "aaea9eeb-8714-4789-a1c4-1470d7137e41")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R28")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 209.55 262.89 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d9f954f")
-		(property "Reference" "R29"
-			(at 213.36 261.62 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 205.74 261.62 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 209.55 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 262.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 209.55 262.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 270.51 461.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c64b82d0-5201-49cc-972e-10cb050eca71")
-		)
-		(pin "2"
-			(uuid "e4caf193-30fc-4162-938f-21657f1da24b")
-		)
-		(pin "3"
-			(uuid "e0b867d1-ec13-477a-b22d-cb19a2310164")
-		)
-		(pin "4"
-			(uuid "8ea183ac-e017-4aee-9fac-ce2a089d3ef4")
-		)
-		(pin "5"
-			(uuid "2b6a7289-5aa4-46b2-9a52-5d189ba9449a")
-		)
-		(pin "6"
-			(uuid "509210d6-10eb-45b3-8855-b376bd44ce11")
-		)
-		(pin "7"
-			(uuid "720d2546-974e-4497-b82f-61f748221612")
-		)
-		(pin "8"
-			(uuid "6ad4c19f-e19f-4263-841c-f05a9afdb8c1")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 209.55 265.43 90)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d9f9557")
-		(property "Reference" "R29"
-			(at 213.36 264.16 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 205.74 264.16 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 209.55 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 265.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 209.55 265.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 270.51 463.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e848ab19-77bb-4ea9-9801-a5e247a808a4")
-		)
-		(pin "2"
-			(uuid "5f3ab684-c06d-4af6-917b-b80bb25a74a0")
-		)
-		(pin "3"
-			(uuid "f8a4c90a-884d-4e86-94ec-2ddfb6f39010")
-		)
-		(pin "4"
-			(uuid "a9044a90-0096-409b-ba7a-2c8c51d5c2d9")
-		)
-		(pin "5"
-			(uuid "0ce9b1ab-cfaa-4b29-901e-d0e4e6ba69f4")
-		)
-		(pin "6"
-			(uuid "937fc2c9-ac92-46d3-906d-4d1e32be465a")
-		)
-		(pin "7"
-			(uuid "06f11aa5-0981-4e05-bcdb-03c9438f75ab")
-		)
-		(pin "8"
-			(uuid "95e8783e-0943-478e-8959-6875c91321ee")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R29")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 209.55 270.51 90)
-		(unit 4)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005da2c30a")
-		(property "Reference" "R29"
-			(at 213.36 269.24 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 205.74 269.24 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 209.55 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 270.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 209.55 270.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 270.51 468.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6b71aa6f-b859-4b16-ad85-947c97ddca62")
-		)
-		(pin "2"
-			(uuid "ad397a79-ba2e-41e5-8966-24b3463aa575")
-		)
-		(pin "3"
-			(uuid "2209b890-e1b1-41d9-b2f7-b5db6014fa1b")
-		)
-		(pin "4"
-			(uuid "fe56cf0b-9afd-40db-a813-79a81a543255")
-		)
-		(pin "5"
-			(uuid "6b9760b0-1d53-4f54-a74b-f3a1d3a6d9ac")
-		)
-		(pin "6"
-			(uuid "e47c7f0a-4182-4def-b0a5-56a88b6a5573")
-		)
-		(pin "7"
-			(uuid "0a6479c0-1822-4b7c-ab28-96c10dfb6fb1")
-		)
-		(pin "8"
-			(uuid "3af28204-40a3-4a8b-9c4f-894bea4e0a6d")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R29")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 181.61 245.11 90)
-		(unit 4)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005da2ded6")
-		(property "Reference" "R19"
-			(at 185.42 243.84 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 177.8 243.84 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 181.61 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 245.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 245.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 242.57 443.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "98af0c3a-7a23-4171-a8bd-a944bc43c2ab")
-		)
-		(pin "2"
-			(uuid "57c4db74-269e-4803-a04d-9da2b2fc6c76")
-		)
-		(pin "3"
-			(uuid "48e83b4f-8d0c-4f9f-a6a8-cb6fd4f30e2a")
-		)
-		(pin "4"
-			(uuid "cd12a8aa-c3ab-4aaf-acf2-3b546cbe77c2")
-		)
-		(pin "5"
-			(uuid "fb75975d-4c72-432b-a6dd-8ec74236e175")
-		)
-		(pin "6"
-			(uuid "6212b620-d36b-4bca-b630-5fe553ec5363")
-		)
-		(pin "7"
-			(uuid "a0deb854-39a0-4d9f-9eca-3ec1cf9bc11c")
-		)
-		(pin "8"
-			(uuid "643df7a5-d80a-4399-91ed-c7954040ac79")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R19")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 209.55 247.65 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005da2e38f")
-		(property "Reference" "R25"
-			(at 213.36 246.38 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 205.74 246.38 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 209.55 247.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 247.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 209.55 247.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 270.51 445.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "76fd9091-9612-4ddf-a127-4a9624ee3745")
-		)
-		(pin "2"
-			(uuid "296ece8b-bbc5-47c4-bf7d-db57ec13a268")
-		)
-		(pin "3"
-			(uuid "f1f21028-4a8b-42b8-8e0c-5468a5907dc7")
-		)
-		(pin "4"
-			(uuid "e04b9a5b-d148-4ace-bd41-32d8a660cb00")
-		)
-		(pin "5"
-			(uuid "86084b59-a156-479e-99cb-297fac449699")
-		)
-		(pin "6"
-			(uuid "553ddf56-a0c9-4948-95ca-9d1325c15e93")
-		)
-		(pin "7"
-			(uuid "ec365bd7-61cf-4342-abf4-cb1afc85f998")
-		)
-		(pin "8"
-			(uuid "2afba6ac-3e29-4f0a-9eea-9d4860e15f3f")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 209.55 250.19 90)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005da2e6e0")
-		(property "Reference" "R25"
-			(at 213.36 248.92 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33E"
-			(at 205.74 248.92 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 209.55 250.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 250.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 209.55 250.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-33"
-			(at 270.51 448.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e2349871-b0ca-4d2c-bcbf-5ed15c88fe4a")
-		)
-		(pin "2"
-			(uuid "76365e17-1634-4e82-9e96-7b4eca731508")
-		)
-		(pin "3"
-			(uuid "85afd77d-23de-45d9-baff-0051f53662df")
-		)
-		(pin "4"
-			(uuid "b6e4a464-a53c-4a6d-9adf-55d196deb31c")
-		)
-		(pin "5"
-			(uuid "7bf0cf1c-db5b-4597-9a47-ed6e0efc9991")
-		)
-		(pin "6"
-			(uuid "b1dfdc56-0484-47d1-aee2-8808160ec99e")
-		)
-		(pin "7"
-			(uuid "8cdafb8e-f3f4-4925-9f83-4c50b445578e")
-		)
-		(pin "8"
-			(uuid "d793877f-c30f-49f7-a75f-3f66cc39e046")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R25")
-					(unit 2)
 				)
 			)
 		)
@@ -26244,482 +23019,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 194.31 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006053814b")
-		(property "Reference" "R46"
-			(at 193.04 40.64 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 193.04 30.48 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 194.31 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 194.31 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Source" "ANY"
-			(at 194.31 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-10k"
-			(at -29.21 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1ab0ec1e-30b9-4560-b668-0d2221eaf951")
-		)
-		(pin "2"
-			(uuid "1b143877-6cdd-48cc-9455-7af50eedd03c")
-		)
-		(pin "3"
-			(uuid "5b51d8f3-9d06-40e5-b298-38508f5b0f9f")
-		)
-		(pin "4"
-			(uuid "e9971626-3480-4acc-8eb1-a8610111a6b1")
-		)
-		(pin "5"
-			(uuid "f678cac7-05aa-44fd-b5f9-8870fe3b307f")
-		)
-		(pin "6"
-			(uuid "068625b7-b659-467b-89e1-07a1099fd8b4")
-		)
-		(pin "7"
-			(uuid "ff1ea62b-1b03-4b14-aac9-537e7409fe2f")
-		)
-		(pin "8"
-			(uuid "5917df58-80fc-4ee9-9f1c-ad6211702292")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 189.23 33.02 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006053814c")
-		(property "Reference" "R46"
-			(at 187.96 40.64 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 187.96 30.48 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 189.23 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 189.23 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Source" "ANY"
-			(at 189.23 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-10k"
-			(at -31.75 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "44ea32c8-b7ae-4cc0-9d4f-ff4c5432d9e6")
-		)
-		(pin "2"
-			(uuid "662d6eea-1fe2-4a2a-9367-c39d2e2201de")
-		)
-		(pin "3"
-			(uuid "8929d9d9-497a-46ee-be73-8d6654aad653")
-		)
-		(pin "4"
-			(uuid "53e66759-cb66-466f-b737-6a192318ea56")
-		)
-		(pin "5"
-			(uuid "772928e7-01eb-482b-8fcd-dc5f884716bc")
-		)
-		(pin "6"
-			(uuid "3fcac56a-c753-4006-a094-a03a0fb122e0")
-		)
-		(pin "7"
-			(uuid "efcf0f5d-ab06-47db-aef4-b4d1a888b926")
-		)
-		(pin "8"
-			(uuid "cccf6904-5eaa-4bcc-a8c5-54a2765f2e49")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R46")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 186.69 33.02 0)
-		(unit 4)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006053814d")
-		(property "Reference" "R46"
-			(at 185.42 40.64 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 185.42 30.48 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 186.69 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 186.69 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Source" "ANY"
-			(at 186.69 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-10k"
-			(at -31.75 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "112f51a6-1716-4f01-95f3-d1a2339612e5")
-		)
-		(pin "2"
-			(uuid "bc5dfc66-e6e5-4ef5-9360-5792091b6625")
-		)
-		(pin "3"
-			(uuid "c2746048-4117-4e09-97ef-d5a69bd4fed4")
-		)
-		(pin "4"
-			(uuid "a756ae75-5401-4ab1-ac05-9282731a6365")
-		)
-		(pin "5"
-			(uuid "94b908d8-49b2-49b3-8c1a-ba1cbfb3e9e7")
-		)
-		(pin "6"
-			(uuid "e58b0635-674a-4ff4-a721-7d9555845b95")
-		)
-		(pin "7"
-			(uuid "677bbee3-84d7-4189-a84e-f415bace21ac")
-		)
-		(pin "8"
-			(uuid "a872c820-eeca-4b7b-bb5e-20881eb05ed8")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R46")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_device:pkl_R4_Small")
-		(at 191.77 33.02 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006053814e")
-		(property "Reference" "R46"
-			(at 190.5 40.64 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 190.5 30.48 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pkl_dipol:R_Array_Convex_4x0402"
-			(at 191.77 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Source" "ANY"
-			(at 191.77 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-10k"
-			(at -34.29 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "97b1717c-bc2c-48d9-b410-f285820cea0c")
-		)
-		(pin "2"
-			(uuid "1c6fcf1e-47c2-490b-bd6f-5afe2f949852")
-		)
-		(pin "3"
-			(uuid "432a63bf-7be7-43e2-90a0-abd5eb9ab72d")
-		)
-		(pin "4"
-			(uuid "d8813ab8-8caf-4372-bb6f-7b3756c90cf8")
-		)
-		(pin "5"
-			(uuid "36aeb567-4bde-4546-a7cc-46807b4c2fe8")
-		)
-		(pin "6"
-			(uuid "b13dbb6e-0511-403e-9e29-cd7bb6f890fe")
-		)
-		(pin "7"
-			(uuid "bdbadacc-4a50-4ce6-b5d1-98ee53c08d6c")
-		)
-		(pin "8"
-			(uuid "94ce341e-b3bb-404b-bcfd-b4e07dc69648")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "R46")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 186.69 22.86 0)
 		(unit 1)
@@ -28490,6 +24789,2573 @@
 			(project "kiss-masterboard"
 				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
 					(reference "#PWR0196")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 209.55 265.43 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "198f063b-28c3-4f3f-8db3-edcd91bba3bd")
+		(property "Reference" "R61"
+			(at 209.55 260.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 209.55 262.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 209.55 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 209.55 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cec0aa79-a134-4faa-bff6-b093cb77668a")
+		)
+		(pin "1"
+			(uuid "ad7d68b8-a5d2-4c39-a5f7-5044fe764337")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 134.62 219.71 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fc45257-f0be-4a62-93fb-e09ce32aa6a9")
+		(property "Reference" "R69"
+			(at 134.62 214.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 134.62 217.17 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 134.62 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 134.62 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8a8edeb9-7db2-4791-a638-de8093ddb7d5")
+		)
+		(pin "1"
+			(uuid "506152f2-deaa-4ca2-80b2-ef503006b623")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 186.69 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d3e8706-80a5-44da-82ba-894d2be2ceaf")
+		(property "Reference" "R45"
+			(at 189.23 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 189.23 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 186.69 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 186.69 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "705b65cc-5316-4113-96d2-9293750953b1")
+		)
+		(pin "2"
+			(uuid "0ab6c8b0-84a8-46ca-9e36-d906825f0c3d")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 181.61 245.11 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33025712-8fad-487f-9fd7-8781e24d9ebd")
+		(property "Reference" "R51"
+			(at 181.61 240.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 181.61 242.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 181.61 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 181.61 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "77f79443-a1aa-404f-9e98-ec068eded7c9")
+		)
+		(pin "1"
+			(uuid "2ff0f28f-5683-440b-91d0-9eeac81beb1f")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 77.47 255.27 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3db04476-7e8e-42dd-af44-9a37f1732870")
+		(property "Reference" "R76"
+			(at 77.47 250.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 77.47 252.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 77.47 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 77.47 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "119eb270-456e-4fa1-981e-8744ba4fad89")
+		)
+		(pin "1"
+			(uuid "7fee01b4-80f1-41dd-8902-b7fdfa584527")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 209.55 250.19 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e5d5cf4-967c-4fe8-9d96-1ccbbe0a35e1")
+		(property "Reference" "R55"
+			(at 209.55 245.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 209.55 247.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 209.55 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 209.55 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4d066501-f3ad-45fa-988a-3ec6b6685880")
+		)
+		(pin "1"
+			(uuid "b2b18fab-92cd-483e-82d8-c1aa7f14cfcd")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 189.23 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f106397-a30d-4737-b06a-badc41f260ea")
+		(property "Reference" "R46"
+			(at 191.77 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 191.77 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 189.23 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 189.23 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9531c618-b4b5-4359-bf2e-869eb805f128")
+		)
+		(pin "2"
+			(uuid "05e05802-f0d4-4c97-81a0-e3d22549fd1a")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 209.55 267.97 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "591c76f9-3265-4f09-bdd1-3e5668de2429")
+		(property "Reference" "R62"
+			(at 209.55 262.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 209.55 265.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 209.55 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 209.55 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bd573220-53ef-4283-94d9-77b5e32216fb")
+		)
+		(pin "1"
+			(uuid "9f8ea002-9033-4c7f-9f4a-252b6643147d")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 77.47 257.81 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61ab56f3-2966-4ccc-a8c3-dc51b868d0aa")
+		(property "Reference" "R77"
+			(at 77.47 252.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 77.47 255.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 77.47 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 77.47 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8ff60471-cb8f-41a4-aec9-a84ac19c1bf5")
+		)
+		(pin "1"
+			(uuid "97f013da-a062-4c45-ae65-36dc8a7d2b59")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 134.62 224.79 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "636db700-4ba4-41d4-a44d-60466e1cd0c1")
+		(property "Reference" "R71"
+			(at 134.62 219.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 134.62 222.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 134.62 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 134.62 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "99b55a38-6be6-4305-8c85-3f2ddbf99e2a")
+		)
+		(pin "1"
+			(uuid "75ba7127-5c66-4c1b-b4ae-64130d8056e3")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 77.47 250.19 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d0c6184-35e4-407b-992d-714fe08f2d46")
+		(property "Reference" "R74"
+			(at 77.47 245.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 77.47 247.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 77.47 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 77.47 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ce75a712-55a4-4598-8205-7417ca952718")
+		)
+		(pin "1"
+			(uuid "8d0d1676-ab4e-4a57-86d8-e436a4d19133")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 209.55 270.51 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c891558-fe69-4524-9835-f3ef63cae632")
+		(property "Reference" "R63"
+			(at 209.55 265.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 209.55 267.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 209.55 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 209.55 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "edb14f19-e47e-4997-9945-760580c82aa6")
+		)
+		(pin "1"
+			(uuid "6e70c3a4-548e-4631-8b69-bbeb5917951f")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 194.31 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dbbef1e-0863-4470-91f4-763bfc136a49")
+		(property "Reference" "R48"
+			(at 196.85 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 196.85 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 194.31 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 194.31 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b895c7d7-7aad-4d60-ab19-5967c2b79180")
+		)
+		(pin "2"
+			(uuid "5eba2d72-334b-4b97-ae93-f3ffbb5ec9aa")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 134.62 212.09 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82a0cc74-5131-45a4-afcf-2a85c9c3fe61")
+		(property "Reference" "R66"
+			(at 134.62 207.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 134.62 209.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 134.62 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 134.62 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c6f5b7ad-c886-4826-a77e-e307963011dd")
+		)
+		(pin "1"
+			(uuid "74aca028-edea-4bcd-b5eb-95315891b835")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 191.77 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e10893a-5286-4ef3-ac35-b55bc0b07bf3")
+		(property "Reference" "R47"
+			(at 194.31 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 194.31 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 191.77 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 191.77 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bae80791-df58-471e-b707-3847198f72ab")
+		)
+		(pin "2"
+			(uuid "d92f3398-cb5f-4bec-9129-b73a22f5bc30")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 134.62 217.17 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a28aceed-0e56-4d30-b130-d458219b8edd")
+		(property "Reference" "R68"
+			(at 134.62 212.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 134.62 214.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 134.62 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 134.62 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4612d474-a316-4c43-9f58-280aafce5dfc")
+		)
+		(pin "1"
+			(uuid "c1e334b7-96dc-4cda-a784-d985d23df940")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 134.62 214.63 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a61e09e2-ff56-492b-b5de-8f4808377845")
+		(property "Reference" "R67"
+			(at 134.62 209.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 134.62 212.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 134.62 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 134.62 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "46b50eae-2671-4119-a651-6290860985ca")
+		)
+		(pin "1"
+			(uuid "6dc5b54b-9a91-4b62-9361-e29bd4b1f09d")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 209.55 260.35 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab31ec43-8ee6-4680-9d4d-87bd1dcdd683")
+		(property "Reference" "R59"
+			(at 209.55 255.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 209.55 257.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 209.55 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 209.55 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fbfd03a6-dc91-41fb-9648-3b4652c81a3a")
+		)
+		(pin "1"
+			(uuid "e4f351ee-3bf1-4bcd-aad0-7885baaf2870")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 134.62 222.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b21eeaaf-64f8-472f-8a5a-344319bdf9c0")
+		(property "Reference" "R70"
+			(at 134.62 217.17 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 134.62 219.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 134.62 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 134.62 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5a749bda-ff4b-4d8c-82d4-994c5b218876")
+		)
+		(pin "1"
+			(uuid "def7178e-5694-4e47-a8be-330809db8e97")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 209.55 252.73 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b504bac8-bd22-4551-8ad7-15dc61c03fbe")
+		(property "Reference" "R56"
+			(at 209.55 247.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 209.55 250.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 209.55 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 209.55 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b35fd587-8430-41f0-b646-9b4cf89b932d")
+		)
+		(pin "1"
+			(uuid "8ff25014-e2a9-4008-ba78-82eafc454dd0")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 77.47 262.89 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c37804d2-767d-4295-a453-1d9dd3fc8c6e")
+		(property "Reference" "R78"
+			(at 77.47 257.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 77.47 260.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 77.47 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 77.47 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b1000cf0-6034-477f-8042-ae4a9babad20")
+		)
+		(pin "1"
+			(uuid "070e8c81-1c7d-41e0-a1d9-4f60656d5f89")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 209.55 247.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc2309f7-4682-4843-8746-e6f57fcbba6b")
+		(property "Reference" "R54"
+			(at 209.55 242.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 209.55 245.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 209.55 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 209.55 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "58bac108-67b1-4da9-82a1-d9ae8985759c")
+		)
+		(pin "1"
+			(uuid "9147038a-7216-4b88-a41a-80ec33070920")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 77.47 252.73 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcde477d-15c7-4ffe-8654-d543d3286481")
+		(property "Reference" "R75"
+			(at 77.47 247.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 77.47 250.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 77.47 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 77.47 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2042276b-b5a8-4926-9519-f1c2514b856b")
+		)
+		(pin "1"
+			(uuid "4469615f-e27e-4c34-8854-fc8b854a811d")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 209.55 257.81 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfec6f4c-68f1-4e47-a5a7-2d74b66e0285")
+		(property "Reference" "R58"
+			(at 209.55 252.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 209.55 255.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 209.55 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 209.55 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1ec24e84-9923-4ab6-ac60-d293e90aae92")
+		)
+		(pin "1"
+			(uuid "9a45dd2a-b501-4401-a2a6-f7fd3d83a6bd")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 134.62 207.01 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e15546b5-e057-491b-8f17-ad063d485871")
+		(property "Reference" "R64"
+			(at 134.62 201.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 134.62 204.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 134.62 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 134.62 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "44a12145-06e8-4b96-8063-a8eace48ca5a")
+		)
+		(pin "1"
+			(uuid "351ee03b-49f7-42ee-a4f1-8ec6fa9ba4a4")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 209.55 262.89 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5dbf028-4cc7-4672-b01b-b8d2dd90ba13")
+		(property "Reference" "R60"
+			(at 209.55 257.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 209.55 260.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 209.55 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 209.55 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e11acb8e-a4ce-480e-ac84-e0862bd9d656")
+		)
+		(pin "1"
+			(uuid "c7cc5b1f-3298-4e10-beef-021d451c0ff8")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 209.55 255.27 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6f84636-6b92-4b8a-8b8e-3b6f10e25c60")
+		(property "Reference" "R57"
+			(at 209.55 250.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 209.55 252.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 209.55 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 209.55 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4a83375c-2652-473c-9cb1-1604805cc3d7")
+		)
+		(pin "1"
+			(uuid "3d73e02c-fa6a-4844-a795-69373380bc2f")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 77.47 245.11 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e70c53ff-2a7e-4de3-a7f1-8ca3513db16f")
+		(property "Reference" "R72"
+			(at 77.47 240.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 77.47 242.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 77.47 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 77.47 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6c502eb2-6bad-4a18-81c7-50bbbbf47be9")
+		)
+		(pin "1"
+			(uuid "d89e91b4-98d7-4f51-9a43-66e9650de96e")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 181.61 255.27 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed8495fe-53c9-4bc3-aa29-7748da641f47")
+		(property "Reference" "R53"
+			(at 181.61 250.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 181.61 252.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 181.61 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 181.61 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ee8f244c-756d-40f1-8a11-f02775c70926")
+		)
+		(pin "1"
+			(uuid "3bcaaeab-a8cf-445c-95ad-ec2d5f01e6bd")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 77.47 247.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef65f804-c851-4376-8936-0c87c3558cd4")
+		(property "Reference" "R73"
+			(at 77.47 242.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 77.47 245.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 77.47 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 77.47 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c209da9f-ffac-49aa-8454-47eea57d257a")
+		)
+		(pin "1"
+			(uuid "6def4a8a-5e42-4b18-a6a4-318872af2d3b")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 134.62 209.55 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f59fb9c7-35fe-43fd-af3e-56c737ca8714")
+		(property "Reference" "R65"
+			(at 134.62 204.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 134.62 207.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 134.62 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 134.62 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f968790d-6a17-4714-b523-d137e45e6514")
+		)
+		(pin "1"
+			(uuid "59eaeec8-5952-478c-be2b-91d6954a7a59")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 181.61 250.19 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fff39e0c-25a5-4118-afa6-5b86bbda9f9d")
+		(property "Reference" "R52"
+			(at 181.61 245.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2-2.2M (33E)"
+			(at 181.61 247.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pkl_dipol:R_0402"
+			(at 181.61 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 181.61 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "caf84f81-d6e0-40b4-96c6-ab36dad6be77")
+		)
+		(pin "1"
+			(uuid "9bc899fa-c22b-45c6-9552-5d7c10d22ea3")
+		)
+		(instances
+			(project "kiss-masterboard"
+				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
+					(reference "R52")
 					(unit 1)
 				)
 			)

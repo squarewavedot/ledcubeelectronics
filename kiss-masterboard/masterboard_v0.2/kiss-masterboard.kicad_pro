@@ -1473,7 +1473,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -1518,7 +1518,7 @@
         "uuid": "7506bdf8-b028-4bb6-b0dc-a13e261cf434"
       }
     ],
-    "used_designators": "U8",
+    "used_designators": "R45-48,R51-78,U8",
     "variants": []
   },
   "sheets": [
