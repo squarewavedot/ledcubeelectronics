@@ -17022,7 +17022,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pkl_jumpers:J_NCNO_0903_30"
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm"
 			(at 60.96 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -22737,7 +22737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pkl_jumpers:J_NC_0603_15"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
 			(at 177.8 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -22828,7 +22828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pkl_jumpers:J_NC_0603_15"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
 			(at 177.8 72.39 0)
 			(hide yes)
 			(show_name no)
