@@ -2177,7 +2177,7 @@
 	)
 	(hierarchical_label "PCM_DOUT"
 		(shape output)
-		(at 60.96 73.66 0)
+		(at 60.96 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2232,7 +2232,7 @@
 	)
 	(hierarchical_label "PCM_DIN"
 		(shape input)
-		(at 60.96 76.2 0)
+		(at 60.96 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)

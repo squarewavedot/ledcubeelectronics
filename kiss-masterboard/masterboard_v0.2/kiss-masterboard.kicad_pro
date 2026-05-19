@@ -51,7 +51,7 @@
         "silk_text_upright": false,
         "zones": {
           "border_display_style": 2,
-          "border_hatch_pitch": 0.5,
+          "border_hatch_pitch": 0.508,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
           "fill_mode": 0,
@@ -60,17 +60,27 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.254,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.254,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.508,
+          "thermal_relief_spoke_width": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [
+        [
+          "annular_width|79243000|97805000|483239ed-342b-4de2-b0ae-c409affd180a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
         [
           "missing_courtyard|108000000|63000000|00000000-0000-0000-0000-00005d26ff00|00000000-0000-0000-0000-000000000000",
           ""
@@ -224,6 +234,7 @@
         1.75,
         2.0,
         3.0,
+        6.0,
         7.0
       ],
       "tuning_pattern_settings": {
@@ -1543,7 +1554,7 @@
         "uuid": "7506bdf8-b028-4bb6-b0dc-a13e261cf434"
       }
     ],
-    "used_designators": "",
+    "used_designators": "PowerSupply1",
     "variants": []
   },
   "sheets": [
