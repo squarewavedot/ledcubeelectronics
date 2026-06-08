@@ -78,15 +78,19 @@
       ],
       "drc_exclusions": [
         [
-          "annular_width|79243000|97805000|483239ed-342b-4de2-b0ae-c409affd180a|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "missing_courtyard|108000000|63000000|00000000-0000-0000-0000-00005d26ff00|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
           "missing_courtyard|173600000|137950000|00000000-0000-0000-0000-00005d2ee4e5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|85500000|151470000|3f5e1a88-0a9d-4fdc-8929-6682f974f17e|9f3b8c38-83a7-4981-bdf1-cb8cb95212cf",
+          ""
+        ],
+        [
+          "silk_edge_clearance|85500000|160530000|3f5e1a88-0a9d-4fdc-8929-6682f974f17e|f98c943d-8591-4783-b3de-a105fa893f35",
           ""
         ]
       ],
@@ -95,7 +99,7 @@
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
+        "annular_width": "warning",
         "clearance": "warning",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
@@ -132,7 +136,7 @@
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "error",
         "padstack": "warning",
-        "pth_inside_courtyard": "error",
+        "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "ignore",
@@ -234,8 +238,12 @@
         1.75,
         2.0,
         3.0,
+        3.5,
+        4.0,
+        5.0,
         6.0,
-        7.0
+        7.0,
+        9.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -1502,6 +1510,12 @@
           "label": "Sim.Pins",
           "name": "Sim.Pins",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1554,7 +1568,7 @@
         "uuid": "7506bdf8-b028-4bb6-b0dc-a13e261cf434"
       }
     ],
-    "used_designators": "PowerSupply1",
+    "used_designators": "#PWR109,R9,U3,PowerSupply1",
     "variants": []
   },
   "sheets": [
