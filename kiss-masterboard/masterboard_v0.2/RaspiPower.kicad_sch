@@ -821,6 +821,16 @@
 		)
 		(uuid "c517bfae-751d-4d05-8165-1263244cc3d4")
 	)
+	(text "CheckEnable\nLevel"
+		(exclude_from_sim no)
+		(at 73.66 44.196 0)
+		(effects
+			(font
+				(size 3.9878 3.9878)
+			)
+		)
+		(uuid "dd471ad8-8536-492d-a1bb-435b11eaa1a7")
+	)
 	(text "5.2V 3A DC/DC"
 		(exclude_from_sim no)
 		(at 16.51 17.78 0)
@@ -885,10 +895,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c016c0cb-9e8a-4d09-90f9-450249fbcb9f")
-	)
-	(no_connect
-		(at 73.66 36.83)
-		(uuid "c6150afa-be6e-46e6-a404-ce86e9e21963")
 	)
 	(wire
 		(pts
@@ -1069,6 +1075,16 @@
 			(type default)
 		)
 		(uuid "827c9454-2b93-4b46-9e10-f36f4a770541")
+	)
+	(wire
+		(pts
+			(xy 72.39 36.83) (xy 73.66 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82806252-2e2a-47ca-955f-9eb59afbdd4f")
 	)
 	(wire
 		(pts
@@ -1290,6 +1306,17 @@
 			(justify right)
 		)
 		(uuid "2a7f7a7e-61f4-48c5-9faf-fd7d62f3ccd0")
+	)
+	(hierarchical_label "Power_EN"
+		(shape input)
+		(at 72.39 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a38245e5-6509-4b91-bc9d-785b0cd36c47")
 	)
 	(hierarchical_label "PGOOD"
 		(shape output)

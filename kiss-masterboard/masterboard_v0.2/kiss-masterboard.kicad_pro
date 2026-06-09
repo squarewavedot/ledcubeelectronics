@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.4,
           "min_island_area": 10.0,
-          "min_thickness": 0.254,
+          "min_thickness": 0.128,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.508,
-          "thermal_relief_spoke_width": 0.508
+          "thermal_relief_gap": 0.2,
+          "thermal_relief_spoke_width": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -575,7 +575,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "tuning_profile": "",
@@ -1568,7 +1568,7 @@
         "uuid": "7506bdf8-b028-4bb6-b0dc-a13e261cf434"
       }
     ],
-    "used_designators": "#PWR109,R9,U3,PowerSupply1",
+    "used_designators": "#PWR192-193,#PWR197,#PWR200,C46,C48,C50,C52-53,C55,C59-60,C62-65,J19",
     "variants": []
   },
   "sheets": [
