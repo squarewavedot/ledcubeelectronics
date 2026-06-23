@@ -7675,7 +7675,7 @@
 		)
 		(uuid "48e2c876-f65f-41ff-925b-77013423ab64")
 	)
-	(text "For programming iCE cut traces connecting J15 and J16 pads.\nShort the pads 1 and 2 together of the J15 and J16 respectively.\nFor programming Flash reverse the operations."
+	(text "For programming iCE cut traces connecting J11 and J12 pads.\nShort the pads 1 and 2 together of the J11 and J12 respectively.\nFor programming Flash reverse the operations."
 		(exclude_from_sim no)
 		(at 151.13 91.44 0)
 		(effects
@@ -9403,16 +9403,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 231.14) (xy 68.58 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "404c7ffd-7dd6-4b22-909a-d67325e94b77")
-	)
-	(wire
-		(pts
 			(xy 33.02 78.74) (xy 38.1 78.74)
 		)
 		(stroke
@@ -10613,16 +10603,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 231.14) (xy 53.34 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79e7c058-baf6-4fac-b494-ae34491bfd0d")
-	)
-	(wire
-		(pts
 			(xy 46.99 124.46) (xy 49.53 124.46)
 		)
 		(stroke
@@ -11073,7 +11053,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 231.14) (xy 68.58 229.87)
+			(xy 60.96 233.68) (xy 60.96 237.49)
 		)
 		(stroke
 			(width 0)
@@ -12673,16 +12653,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 231.14) (xy 53.34 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f01fee8a-8981-45c2-b226-5dd1aec7c93a")
-	)
-	(wire
-		(pts
 			(xy 29.21 132.08) (xy 29.21 134.62)
 		)
 		(stroke
@@ -12730,16 +12700,6 @@
 			(type dash)
 		)
 		(uuid "f3c07502-3d72-4ad5-b9eb-ae2eaec7393b")
-	)
-	(wire
-		(pts
-			(xy 60.96 234.95) (xy 60.96 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4456411-4e36-4232-abee-c32fab586540")
 	)
 	(polyline
 		(pts
@@ -14621,7 +14581,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 68.58 229.87 90)
+		(at 60.96 233.68 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15085,7 +15045,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 44.45 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15189,7 +15149,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 39.37 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15776,7 +15736,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 24.13 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16227,7 +16187,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 152.4 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16559,7 +16519,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 129.3368 41.8084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16739,7 +16699,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 121.92 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16983,178 +16943,6 @@
 			(project "kiss-masterboard"
 				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Bridged12")
-		(at 60.96 231.14 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005baa8ed0")
-		(property "Reference" "J9"
-			(at 64.77 228.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "jmp"
-			(at 58.42 228.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm"
-			(at 60.96 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 60.96 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Source" "ANY"
-			(at 60.96 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1e3f8138-db76-4b61-841f-420f0f3e1663")
-		)
-		(pin "2"
-			(uuid "6c3d0d77-2b00-4554-af4e-b06f95cfe2ec")
-		)
-		(pin "3"
-			(uuid "309664c9-5a24-4e52-b3cc-b149be92ee84")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 53.34 229.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005babb946")
-		(property "Reference" "#PWR0145"
-			(at 53.34 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 53.721 225.3996 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 229.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7de0c753-c58f-41a9-8de9-c1db2fc3588e")
-		)
-		(instances
-			(project "kiss-masterboard"
-				(path "/7506bdf8-b028-4bb6-b0dc-a13e261cf434/00000000-0000-0000-0000-00005d49de90"
-					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -18535,7 +18323,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 125.349 243.9416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18714,7 +18502,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 22.479 243.9416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18893,7 +18681,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 177.8 236.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19072,7 +18860,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 74.93 236.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19711,7 +19499,7 @@
 				)
 			)
 		)
-		(property "Value" "330E"
+		(property "Value" "330"
 			(at 85.09 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20378,7 +20166,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 78.359 205.8416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20557,7 +20345,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 130.81 198.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21602,7 +21390,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 40.64 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21856,7 +21644,7 @@
 				)
 			)
 		)
-		(property "Value" "100E"
+		(property "Value" "100"
 			(at 24.13 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21959,7 +21747,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 33.02 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22242,7 +22030,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 29.21 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22447,7 +22235,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 34.29 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22986,7 +22774,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 38.3032 41.8084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23732,7 +23520,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2.2k"
 			(at 129.54 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24062,7 +23850,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 280.4668 44.3484 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -966,7 +966,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 67.818 95.123 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1124,7 +1124,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µF"
+		(property "Value" "1uF"
 			(at 39.37 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
