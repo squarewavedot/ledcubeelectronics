@@ -3162,6 +3162,17 @@
 				)
 			)
 		)
+		(property "JLCNR" "C15849"
+			(at 59.69 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d52c0395-9ef4-41a7-920c-5f2f9533e9cc")
 		)
@@ -3351,6 +3362,17 @@
 				)
 			)
 		)
+		(property "JLCNR" "C25803"
+			(at 81.28 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a2cf3417-5046-4fe7-8930-8cf2af9feed6")
 		)
@@ -3461,6 +3483,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCNR" "C3013161"
+			(at 68.58 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
 				)
 			)
 		)
@@ -3577,6 +3610,17 @@
 				)
 			)
 		)
+		(property "JLCNR" "C11710"
+			(at 68.58 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "714cb276-1bc0-45b2-80a9-3412549bd14c")
 		)
@@ -3677,7 +3721,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005dddf217")
 		(property "Reference" "U9"
 			(at 62.23 78.74 0)
@@ -3761,6 +3805,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCNR" "C702272"
+			(at 81.28 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
 				)
 			)
 		)
@@ -3919,6 +3974,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCNR" "C2999480"
+			(at 50.8 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
 				)
 			)
 		)
@@ -4185,6 +4251,17 @@
 				)
 			)
 		)
+		(property "JLCNR" "C17675"
+			(at 123.19 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "50724661-0306-4bb2-a2e2-baae7d959c08")
 		)
@@ -4293,6 +4370,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCNR" "C49678"
+			(at 123.19 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
 				)
 			)
 		)
@@ -4407,6 +4495,17 @@
 				)
 			)
 		)
+		(property "JLCNR" "C25271"
+			(at 111.76 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6cd8f714-f859-49f2-990a-a4fb49ba3f7a")
 		)
@@ -4517,6 +4616,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCNR" "C28323"
+			(at 41.91 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
 				)
 			)
 		)
@@ -4785,6 +4895,17 @@
 				)
 			)
 		)
+		(property "JLCNR" "C13585"
+			(at 219.71 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "50ba3240-9da2-4abe-82b9-c0075d88f558")
 		)
@@ -4898,6 +5019,17 @@
 				)
 			)
 		)
+		(property "JLCNR" "C861207"
+			(at 181.61 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "48589e90-9c1b-426f-979e-3692dfaa548b")
 		)
@@ -5008,6 +5140,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCNR" "C25804"
+			(at 181.61 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
 				)
 			)
 		)
@@ -5200,6 +5343,17 @@
 				)
 			)
 		)
+		(property "JLCNR" "C1588"
+			(at 163.83 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "02361400-95d0-4151-aae4-692fb0e3cc72")
 		)
@@ -5310,6 +5464,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCNR" "C25271"
+			(at 163.83 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
 				)
 			)
 		)
@@ -5500,6 +5665,17 @@
 				)
 			)
 		)
+		(property "JLCNR" "C3911594"
+			(at 172.72 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "14e7c984-bbc3-4842-b7cb-c6238a4bd949")
 		)
@@ -5524,7 +5700,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005dddf2ff")
 		(property "Reference" "U10"
 			(at 139.7 90.17 0)
@@ -5608,6 +5784,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCNR" "C181654"
+			(at 144.78 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
 				)
 			)
 		)
@@ -5742,6 +5929,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCNR" "C13585"
+			(at 219.71 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
 				)
 			)
 		)
@@ -6618,6 +6816,17 @@
 				)
 			)
 		)
+		(property "JLCNR" "C13585"
+			(at 210.82 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d349d4af-55d3-4dcf-b8d4-031bbc8ceaa6")
 		)
@@ -6804,6 +7013,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCNR" "C12891"
+			(at 260.35 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
 				)
 			)
 		)
@@ -6996,6 +7216,17 @@
 				)
 			)
 		)
+		(property "JLCNR" "C96123"
+			(at 260.35 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "12b59b68-d501-4ba9-8edb-890ca723e258")
 		)
@@ -7106,6 +7337,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCNR" "C96123"
+			(at 240.03 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
 				)
 			)
 		)
@@ -7222,6 +7464,17 @@
 				)
 			)
 		)
+		(property "JLCNR" "C12891"
+			(at 250.19 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "22546fb7-71be-4c45-89e2-06b78c92d52d")
 		)
@@ -7332,6 +7585,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCNR" "C12891"
+			(at 234.95 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
 				)
 			)
 		)
@@ -7524,6 +7788,17 @@
 				)
 			)
 		)
+		(property "JLCNR" "C12891"
+			(at 255.27 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "89329206-8654-4e8c-bcc7-0f5fc69aaa66")
 		)
@@ -7634,6 +7909,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCNR" "C12891"
+			(at 245.11 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
 				)
 			)
 		)
@@ -7750,6 +8036,17 @@
 				)
 			)
 		)
+		(property "JLCNR" "C96123"
+			(at 250.19 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3cc2212f-9e1b-49a7-a5e8-4a931289ac79")
 		)
@@ -7860,6 +8157,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCNR" "C96123"
+			(at 229.87 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
 				)
 			)
 		)
@@ -7976,6 +8284,17 @@
 				)
 			)
 		)
+		(property "JLCNR" "C12891"
+			(at 224.79 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4d6226fd-21a4-4db2-bf94-433f793f7c5d")
 		)
@@ -8086,6 +8405,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCNR" "C12891"
+			(at 229.87 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
 				)
 			)
 		)
@@ -8351,6 +8681,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCNR" "C12891"
+			(at 240.03 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.9878 3.9878)
 				)
 			)
 		)
