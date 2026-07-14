@@ -2535,7 +2535,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C25803"
+		(property "LCSC Part #" "C25803"
 			(at 92.71 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -2659,7 +2659,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C25803"
+		(property "LCSC Part #" "C25803"
 			(at 97.79 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -2747,7 +2747,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C22436166"
+		(property "LCSC Part #" "C22436166"
 			(at 49.53 52.07 0)
 			(hide yes)
 			(show_name no)

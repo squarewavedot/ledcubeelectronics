@@ -1532,7 +1532,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "production/bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -1557,19 +1557,19 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Value",
           "name": "Value",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -1663,8 +1663,8 @@
         },
         {
           "group_by": false,
-          "label": "JLCPCB Part #",
-          "name": "JLCNR",
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
           "show": true
         }
       ],
@@ -1672,8 +1672,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "LCSC Part #"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,

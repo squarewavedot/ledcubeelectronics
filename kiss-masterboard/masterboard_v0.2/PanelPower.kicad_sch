@@ -3162,7 +3162,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C15849"
+		(property "LCSC Part #" "C15849"
 			(at 59.69 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3362,7 +3362,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C25803"
+		(property "LCSC Part #" "C25803"
 			(at 81.28 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3486,7 +3486,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C3013161"
+		(property "LCSC Part #" "C3013161"
 			(at 68.58 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3610,7 +3610,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C11710"
+		(property "LCSC Part #" "C11710"
 			(at 68.58 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3808,7 +3808,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C702272"
+		(property "LCSC Part #" "C702272"
 			(at 81.28 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3977,7 +3977,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C2999480"
+		(property "LCSC Part #" "C2999480"
 			(at 50.8 127 0)
 			(hide yes)
 			(show_name no)
@@ -4251,7 +4251,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C17675"
+		(property "LCSC Part #" "C17675"
 			(at 123.19 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -4373,7 +4373,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C49678"
+		(property "LCSC Part #" "C49678"
 			(at 123.19 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -4495,7 +4495,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C25271"
+		(property "LCSC Part #" "C25271"
 			(at 111.76 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -4619,7 +4619,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C28323"
+		(property "LCSC Part #" "C28323"
 			(at 41.91 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -4895,7 +4895,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C13585"
+		(property "LCSC Part #" "C13585"
 			(at 219.71 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5019,7 +5019,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C861207"
+		(property "LCSC Part #" "C861207"
 			(at 181.61 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5143,7 +5143,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C25804"
+		(property "LCSC Part #" "C25804"
 			(at 181.61 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5343,7 +5343,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C1588"
+		(property "LCSC Part #" "C1588"
 			(at 163.83 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5467,7 +5467,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C25271"
+		(property "LCSC Part #" "C25271"
 			(at 163.83 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5665,7 +5665,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C3911594"
+		(property "LCSC Part #" "C3911594"
 			(at 172.72 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -5787,7 +5787,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C181654"
+		(property "LCSC Part #" "C181654"
 			(at 144.78 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5932,7 +5932,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C13585"
+		(property "LCSC Part #" "C13585"
 			(at 219.71 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6816,7 +6816,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C13585"
+		(property "LCSC Part #" "C13585"
 			(at 210.82 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7016,7 +7016,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C12891"
+		(property "LCSC Part #" "C12891"
 			(at 260.35 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7216,7 +7216,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C96123"
+		(property "LCSC Part #" "C96123"
 			(at 260.35 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7340,7 +7340,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C96123"
+		(property "LCSC Part #" "C96123"
 			(at 240.03 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7464,7 +7464,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C12891"
+		(property "LCSC Part #" "C12891"
 			(at 250.19 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7588,7 +7588,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C12891"
+		(property "LCSC Part #" "C12891"
 			(at 234.95 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7788,7 +7788,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C12891"
+		(property "LCSC Part #" "C12891"
 			(at 255.27 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7912,7 +7912,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C12891"
+		(property "LCSC Part #" "C12891"
 			(at 245.11 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8036,7 +8036,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C96123"
+		(property "LCSC Part #" "C96123"
 			(at 250.19 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -8160,7 +8160,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C96123"
+		(property "LCSC Part #" "C96123"
 			(at 229.87 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -8284,7 +8284,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C12891"
+		(property "LCSC Part #" "C12891"
 			(at 224.79 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8408,7 +8408,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C12891"
+		(property "LCSC Part #" "C12891"
 			(at 229.87 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8684,7 +8684,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C12891"
+		(property "LCSC Part #" "C12891"
 			(at 240.03 40.64 0)
 			(hide yes)
 			(show_name no)

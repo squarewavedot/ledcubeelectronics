@@ -1475,7 +1475,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C14663"
+		(property "LCSC Part #" "C14663"
 			(at 49.53 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -1675,7 +1675,7 @@
 				)
 			)
 		)
-		(property "JLCNR" " C440198"
+		(property "LCSC Part #" " C440198"
 			(at 34.29 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -1810,7 +1810,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C14663"
+		(property "LCSC Part #" "C14663"
 			(at 110.49 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -1899,7 +1899,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C3040411"
+		(property "LCSC Part #" "C3040411"
 			(at 121.92 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -2035,7 +2035,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C2930115"
+		(property "LCSC Part #" "C2930115"
 			(at 129.54 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -2171,7 +2171,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C25804"
+		(property "LCSC Part #" "C25804"
 			(at 129.54 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -2295,7 +2295,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C12891"
+		(property "LCSC Part #" "C12891"
 			(at 140.97 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -2495,7 +2495,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C12891"
+		(property "LCSC Part #" "C12891"
 			(at 148.59 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -2771,7 +2771,7 @@
 				)
 			)
 		)
-		(property "JLCNR" " C440198"
+		(property "LCSC Part #" " C440198"
 			(at 41.91 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3013,7 +3013,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C5159703"
+		(property "LCSC Part #" "C5159703"
 			(at 72.39 44.45 90)
 			(hide yes)
 			(show_name no)
@@ -3179,7 +3179,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C23231"
+		(property "LCSC Part #" "C23231"
 			(at 68.58 44.45 90)
 			(hide yes)
 			(show_name no)
@@ -3346,7 +3346,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C217958"
+		(property "LCSC Part #" "C217958"
 			(at 101.6 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -3438,7 +3438,7 @@
 				)
 			)
 		)
-		(property "JLCNR" "C2071106"
+		(property "LCSC Part #" "C2071106"
 			(at 83.82 34.29 0)
 			(hide yes)
 			(show_name no)
