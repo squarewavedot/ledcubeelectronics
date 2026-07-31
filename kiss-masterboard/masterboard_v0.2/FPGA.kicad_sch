@@ -7620,6 +7620,24 @@
 		)
 		(uuid "1668c523-cd98-4c93-b6c8-0f243c9f8004")
 	)
+	(text "R51-R78 fabbed with 2-2.2M instead of the intended 33E.
+2.2M in series with these CMOS-input lines (LATCH/SCLK/BLANK/
+A0-A4/RGB data) low-pass filters the edges far too slowly for
+HUB75 timing at any usable clock - display was unusable until
+hand-reworked to ~33E. U17 (12MHz osc, separate defect: bad
+rework joint) also had to be bypassed via the FPGA's internal
+HFOSC+PLL. Fixed in hardware and here 2026-08; carry 33E into
+the next fab run instead of stuffing 2.2M again."
+		(exclude_from_sim no)
+		(at 16.51 275.0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e1b2a3c-7f4d-4a9e-9c2b-1d6e8f3a0b71")
+	)
 	(text "DPair"
 		(exclude_from_sim no)
 		(at 86.36 55.88 0)
@@ -24721,7 +24739,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 209.55 262.89 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24812,7 +24830,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 134.62 217.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24996,7 +25014,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 181.61 242.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25087,7 +25105,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 77.47 252.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25178,7 +25196,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 209.55 247.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25463,7 +25481,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 209.55 265.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25554,7 +25572,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 77.47 255.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25645,7 +25663,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 134.62 222.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25736,7 +25754,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 77.47 247.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25827,7 +25845,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 209.55 267.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26011,7 +26029,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 134.62 209.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26296,7 +26314,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 134.62 214.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26387,7 +26405,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 134.62 212.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26478,7 +26496,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 209.55 257.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26569,7 +26587,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 134.62 219.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26660,7 +26678,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 209.55 250.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26751,7 +26769,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 77.47 260.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26842,7 +26860,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 209.55 245.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26933,7 +26951,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 77.47 250.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27024,7 +27042,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 209.55 255.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27115,7 +27133,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 134.62 204.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27206,7 +27224,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 209.55 260.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27297,7 +27315,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 209.55 252.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27388,7 +27406,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 77.47 242.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27478,7 +27496,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 181.61 252.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27569,7 +27587,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 77.47 245.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27660,7 +27678,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 134.62 207.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27751,7 +27769,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33E"
 			(at 181.61 247.65 90)
 			(show_name no)
 			(do_not_autoplace no)
