@@ -24721,7 +24721,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 209.55 262.89 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24764,7 +24764,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 209.55 265.43 90)
 			(hide yes)
 			(show_name no)
@@ -24812,7 +24812,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 134.62 217.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24855,7 +24855,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 134.62 219.71 90)
 			(hide yes)
 			(show_name no)
@@ -24996,7 +24996,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 181.61 242.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25039,7 +25039,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 181.61 245.11 90)
 			(hide yes)
 			(show_name no)
@@ -25087,7 +25087,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 77.47 252.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25130,7 +25130,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 77.47 255.27 90)
 			(hide yes)
 			(show_name no)
@@ -25178,7 +25178,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 209.55 247.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25221,7 +25221,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 209.55 250.19 90)
 			(hide yes)
 			(show_name no)
@@ -25463,7 +25463,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 209.55 265.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25506,7 +25506,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 209.55 267.97 90)
 			(hide yes)
 			(show_name no)
@@ -25554,7 +25554,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 77.47 255.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25597,7 +25597,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 77.47 257.81 90)
 			(hide yes)
 			(show_name no)
@@ -25645,7 +25645,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 134.62 222.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25688,7 +25688,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 134.62 224.79 90)
 			(hide yes)
 			(show_name no)
@@ -25736,7 +25736,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 77.47 247.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25779,7 +25779,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 77.47 250.19 90)
 			(hide yes)
 			(show_name no)
@@ -25827,7 +25827,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 209.55 267.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25870,7 +25870,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 209.55 270.51 90)
 			(hide yes)
 			(show_name no)
@@ -26011,7 +26011,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 134.62 209.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26054,7 +26054,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 134.62 212.09 90)
 			(hide yes)
 			(show_name no)
@@ -26296,7 +26296,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 134.62 214.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26339,7 +26339,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 134.62 217.17 90)
 			(hide yes)
 			(show_name no)
@@ -26387,7 +26387,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 134.62 212.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26430,7 +26430,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 134.62 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -26478,7 +26478,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 209.55 257.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26521,7 +26521,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 209.55 260.35 90)
 			(hide yes)
 			(show_name no)
@@ -26569,7 +26569,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 134.62 219.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26612,7 +26612,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 134.62 222.25 90)
 			(hide yes)
 			(show_name no)
@@ -26660,7 +26660,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 209.55 250.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26703,7 +26703,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 209.55 252.73 90)
 			(hide yes)
 			(show_name no)
@@ -26751,7 +26751,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 77.47 260.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26794,7 +26794,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 77.47 262.89 90)
 			(hide yes)
 			(show_name no)
@@ -26842,7 +26842,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 209.55 245.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26885,7 +26885,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 209.55 247.65 90)
 			(hide yes)
 			(show_name no)
@@ -26933,7 +26933,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 77.47 250.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26976,7 +26976,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 77.47 252.73 90)
 			(hide yes)
 			(show_name no)
@@ -27024,7 +27024,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 209.55 255.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27067,7 +27067,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 209.55 257.81 90)
 			(hide yes)
 			(show_name no)
@@ -27115,7 +27115,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 134.62 204.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27158,7 +27158,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 134.62 207.01 90)
 			(hide yes)
 			(show_name no)
@@ -27206,7 +27206,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 209.55 260.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27249,7 +27249,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 209.55 262.89 90)
 			(hide yes)
 			(show_name no)
@@ -27297,7 +27297,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 209.55 252.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27340,7 +27340,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 209.55 255.27 90)
 			(hide yes)
 			(show_name no)
@@ -27388,7 +27388,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 77.47 242.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27431,7 +27431,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 77.47 245.11 90)
 			(hide yes)
 			(show_name no)
@@ -27478,7 +27478,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 181.61 252.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27521,7 +27521,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 181.61 255.27 90)
 			(hide yes)
 			(show_name no)
@@ -27569,7 +27569,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 77.47 245.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27612,7 +27612,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 77.47 247.65 90)
 			(hide yes)
 			(show_name no)
@@ -27660,7 +27660,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 134.62 207.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27703,7 +27703,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 134.62 209.55 90)
 			(hide yes)
 			(show_name no)
@@ -27751,7 +27751,7 @@
 				)
 			)
 		)
-		(property "Value" "2-2.2M (33E)"
+		(property "Value" "33R"
 			(at 181.61 247.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27794,7 +27794,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C138015"
+		(property "LCSC Part #" "C25105"
 			(at 181.61 250.19 90)
 			(hide yes)
 			(show_name no)
